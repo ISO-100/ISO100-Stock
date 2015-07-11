@@ -53,4 +53,4 @@ def stk_lst_re():
    
 stk_lst_download()
 stk_lst_re()
-print "stk_lst process done!"
+#print "stk_lst process done!"

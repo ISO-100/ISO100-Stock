@@ -69,4 +69,4 @@ for stk_num in c.execute("SELECT stk_num from stk_lst"):
                     (stk_num,stk_name,open_prc,close_prc,current_prc,highest_prc,lowest_prc,buy1,sell1,stock_dealed,price_dealed,date,time))
         conn.commit()                
 c.close()
-print "stk_prc process done!"
+#print "stk_prc process done!"
