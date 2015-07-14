@@ -25,7 +25,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS stk_prc(
                 sell1 NUM,
                 stock_dealed INT,
                 price_dealed INT,
-                date CHAR,
+                date TEXT,
                 time CHAR
                 )''')
 for stk_num in c.execute("SELECT stk_num from stk_lst"):
