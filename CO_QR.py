@@ -1,7 +1,8 @@
 #coding=utf-8
-#Created on 2015/07/18
-#By Cong
 #This script is aim to download the Quarter Report from SINA Stock 
+#Version 2.1
+#Version 2.0 and 2.1 Update on 2015/07/19: Fix html_gzip Bug, change the primary key of CO_QR TABLE, add field naned "QUARTER" of CO_QR TABLE.
+#By Cong
 
 import sys
 import os
@@ -25,7 +26,7 @@ c = conn.cursor()
 #CFPS: Cash flow per share,每股现金流量（元）
 #GPR: Gross Profit Rate,毛利率（%）
 c.execute('''CREATE TABLE IF NOT EXISTS CO_QR(
-                stk_num CHAR PRIMARY KEY, 
+                stk_num CHAR, 
                 stk_name CHAR,
                 publication_date TEXT, 
                 EPS NUM, 
@@ -36,7 +37,9 @@ c.execute('''CREATE TABLE IF NOT EXISTS CO_QR(
                 NAPS NUM,
                 ROE NUM,
                 CFPS NUM,
-                GPR NUM              
+                GPR NUM,
+                QUARTER TEXT,
+                constraint pk_CO_QR primary key(stk_num,publication_date)
                 )''')
 
 year = raw_input("Input Year Likes 2014:")
@@ -51,42 +54,38 @@ elif quarter=="3":
 elif quarter=="4":
     quar="-12-31"
     
-    
 for link_num in range(1,20):
-
     link = "http://finance.sina.com.cn/realstock/income_statement/"+year+quar+"/issued_pdate_ac_"+'%d'%link_num+".html"
-    print link
-    
+    #print link
     #req = urllib2.Request(link)
     #res = urllib2.urlopen(req)
     try:
         req = urllib2.Request(link)
-        res = urllib2.urlopen(req)        
+        req.add_header('Accept-encoding','gzip')
+        res = urllib2.urlopen(req)
+        #html = requests.get(link).text
+        if res.info().get('Content-Encoding')=='gzip':
+            buf = StringIO(res.read())
+            f = gzip.GzipFile(fileobj=buf)
+            html = f.read()
+        else:
+            html = res.read()               
     except:
         print link
         print 'Invalid Html Link!'
-        break
-
-    #req = urllib2.Request(link)
-    #res = urllib2.urlopen(req)
-    html = res.read()
-    
-    #Deal with Gziped webpage
-    if res.info().get('Content-Encoding') == 'gzip':
-        buf = StringIO(html)
-        f = gzip.GzipFile(fileobj=buf)
-        html = f.read()
-        
+        continue
+   
+    #html = res.read()
     soup= BeautifulSoup(html,from_encoding="gb18030")
+    #soup= BeautifulSoup(html,from_encoding="gb2312")
     #找到表格的根节点
     trs=soup.find("div",id="box")
-    #print trs
-    
     try:
-        root = trs.contents[1].contents[3]
+        root=trs.contents[1].contents[3]
     except:
         print "Error Mark:"+link
         print 'System Error!Try again!!!'
+        continue
 
     rows = len(root)
     #print rows
@@ -104,13 +103,14 @@ for link_num in range(1,20):
         ROE = root.contents[x].contents[9].string
         CFPS = root.contents[x].contents[10].string
         GPR = root.contents[x].contents[11].string
+        QUARTER = year+quar
         conn.execute('''INSERT OR REPLACE INTO CO_QR(
-                    stk_num, stk_name, publication_date, EPS, operation_revenue, year_on_year1, net_profit, year_on_year2, NAPS, ROE, CFPS, GPR) 
-                    VALUES (?,?,?,?,?,?,?,?,?,?,?,?)''',
-                    (stk_num,stk_name,publication_date,EPS,operation_revenue,year_on_year1,net_profit,year_on_year2,NAPS,ROE,CFPS,GPR))
+                    stk_num, stk_name, publication_date, EPS, operation_revenue, year_on_year1, net_profit, year_on_year2, NAPS, ROE, CFPS, GPR, QUARTER) 
+                    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)''',
+                    (stk_num,stk_name,publication_date,EPS,operation_revenue,year_on_year1,net_profit,year_on_year2,NAPS,ROE,CFPS,GPR,QUARTER))
         conn.commit()
          
 c.close()
 
 print "QR"+year+quar
-#print "Process Done."
+print "Process Done."
