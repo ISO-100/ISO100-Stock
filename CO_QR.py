@@ -10,6 +10,8 @@ import urllib2
 #需要自行安装 bs4
 from bs4 import BeautifulSoup
 import sqlite3
+import gzip
+from StringIO import StringIO
 
 conn = sqlite3.connect('stock.sqlite')
 c = conn.cursor()
@@ -49,9 +51,12 @@ elif quarter=="3":
 elif quarter=="4":
     quar="-12-31"
     
+    
 for link_num in range(1,20):
+
     link = "http://finance.sina.com.cn/realstock/income_statement/"+year+quar+"/issued_pdate_ac_"+'%d'%link_num+".html"
-    #print link
+    print link
+    
     #req = urllib2.Request(link)
     #res = urllib2.urlopen(req)
     try:
@@ -60,20 +65,28 @@ for link_num in range(1,20):
     except:
         print link
         print 'Invalid Html Link!'
-        continue
+        break
 
     #req = urllib2.Request(link)
     #res = urllib2.urlopen(req)
     html = res.read()
+    
+    #Deal with Gziped webpage
+    if res.info().get('Content-Encoding') == 'gzip':
+        buf = StringIO(html)
+        f = gzip.GzipFile(fileobj=buf)
+        html = f.read()
+        
     soup= BeautifulSoup(html,from_encoding="gb18030")
     #找到表格的根节点
     trs=soup.find("div",id="box")
+    #print trs
+    
     try:
-        root=trs.contents[1].contents[3]
+        root = trs.contents[1].contents[3]
     except:
         print "Error Mark:"+link
         print 'System Error!Try again!!!'
-        break
 
     rows = len(root)
     #print rows
