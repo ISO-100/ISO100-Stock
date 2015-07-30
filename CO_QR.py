@@ -53,6 +53,9 @@ elif quarter=="3":
     quar="-09-30"
 elif quarter=="4":
     quar="-12-31"
+else:
+    print "input Error. Try again!"
+    sys.exit()
     
 for link_num in range(1,20):
     link = "http://finance.sina.com.cn/realstock/income_statement/"+year+quar+"/issued_pdate_ac_"+'%d'%link_num+".html"
