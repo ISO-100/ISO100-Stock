@@ -1,7 +1,7 @@
 #coding=utf-8
 #This script is aim to download the Quarter Report from SINA Stock 
-#Version 2.1
-#Version 2.0 and 2.1 Update on 2015/07/19: Fix html_gzip Bug, change the primary key of CO_QR TABLE, add field naned "QUARTER" of CO_QR TABLE.
+#Version 2.2
+#Version 2.2 Update on 2015/07/30: Fix the field naned "QUARTER" of CO_QR TABLE.
 #By Cong
 
 import sys
@@ -103,7 +103,7 @@ for link_num in range(1,20):
         ROE = root.contents[x].contents[9].string
         CFPS = root.contents[x].contents[10].string
         GPR = root.contents[x].contents[11].string
-        QUARTER = year+quar
+        QUARTER = year+"-"+quarter+"Q"
         conn.execute('''INSERT OR REPLACE INTO CO_QR(
                     stk_num, stk_name, publication_date, EPS, operation_revenue, year_on_year1, net_profit, year_on_year2, NAPS, ROE, CFPS, GPR, QUARTER) 
                     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)''',
