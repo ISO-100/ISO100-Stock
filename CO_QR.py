@@ -2,6 +2,7 @@
 #This script is aim to download the Quarter Report from SINA Stock 
 #Version 2.2
 #Version 2.2 Update on 2015/07/30: Fix the field naned "QUARTER" of CO_QR TABLE.
+#Sample:http://finance.sina.com.cn/realstock/income_statement/2014-12-31/issued_pdate_ac_1.html
 #By Cong
 
 import sys
