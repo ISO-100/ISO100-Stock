@@ -7,6 +7,7 @@
 import urllib
 import sqlite3
 import re
+import time
 
 def int_eps_download(i,filename):
     url = 'http://vip.stock.finance.sina.com.cn/q/go.php/vPerformancePrediction/kind/eps/index.phtml?num=60&p='
@@ -17,7 +18,6 @@ def int_eps_download(i,filename):
     fopen.write(html)
     fopen.close()
     
-
 def int_eps_re(filename):
     fopen = open(filename)
     eps_data = []
@@ -56,7 +56,6 @@ def int_eps_store(eps_data):
     con = sqlite3.connect('stock.sqlite')
     #con.execute("DROP TABLE IF EXISTS int_eps")
     con.execute('''CREATE TABLE IF NOT EXISTS int_eps(
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
             stk_num CHAR,
             stk_name CHAR,
             eps_y14 NUM,
@@ -65,7 +64,8 @@ def int_eps_store(eps_data):
             eps_y17 NUM,
             date TEXT,
             org_name CHAR,
-            author CHAR
+            author CHAR,
+            PRIMARY KEY (stk_num,date,org_name)
             )''')
     while len(eps_data) > 0:
         con.execute('''INSERT OR REPLACE INTO int_eps (stk_num,stk_name,eps_y14,eps_y15,eps_y16,eps_y17,date,org_name,author) 
@@ -75,8 +75,7 @@ def int_eps_store(eps_data):
         eps_data = eps_data[9:]
     con.close()
     
-    
-if __name__ == "__main__":
+def main():
     page = 1
     filename = "int_eps_download.txt"
     while True:
@@ -88,9 +87,10 @@ if __name__ == "__main__":
             break
         int_eps_store(eps_data)
         page = page + 1
-        
     print "Congratulation! All pages finished!"
     
-    
-    
-    
+if __name__ == "__main__":
+    start_time = time.time()
+    main()
+    print "\nCongrats! All done!"
+    print("--- This program costs %0.2f seconds ---" % (time.time() - start_time))
