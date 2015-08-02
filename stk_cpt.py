@@ -66,13 +66,13 @@ for stk_num in c.execute("SELECT stk_num from stk_lst"):
 #	stk_name = c.fetchone
 	stk_num = stk_num[0]
 #	print stk_num
-	
+
 	try:
 		stk_cpt = stk_cpt_download(stk_num)
 	except:
 		print 'missing %s' %stk_num
 	conn.execute('''INSERT OR REPLACE INTO stk_cpt (
-                    stk_num,  stk_cpt,date) 
+                    stk_num,stk_cpt,date) 
                     VALUES (?,?,?)''',
                     (stk_num,stk_cpt,date))
 conn.commit()                
