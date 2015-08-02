@@ -63,6 +63,9 @@ def query_lst(arg1,arg2,arg3):
     rows = dd.fetchall()
     return rows
 
+stk_cpt_check = ""
+stk_idt_check = ""
+print "It will takes few mins, please wait..."
     
 for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     stk_num = stk_lst[0]
@@ -83,18 +86,19 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_lYear_1Q = temp[0][0]
         P_lYear_1Q = temp[0][1]
-        P_rate_1Q = P_lYear_1Q/R_lYear_1Q
+        try:P_rate_1Q = P_lYear_1Q/R_lYear_1Q
+        except:P_rate_1Q = "N/A"
     else:
         R_lYear_1Q = "N/A"
         P_lYear_1Q = "N/A"
         P_rate_1Q = "N/A"
-    print R_lYear_1Q, P_lYear_1Q
-        
+            
     temp = query_lst(stk_num,lYear,"-2Q")
     if len(temp)>0:
         R_lYear_2Q = temp[0][0]
         P_lYear_2Q = temp[0][1]
-        P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+        try:P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+        except:P_rate_2Q = "N/A"
     else:
         R_lYear_2Q = "N/A"
         P_lYear_2Q = "N/A"
@@ -104,7 +108,8 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_lYear_3Q = temp[0][0]
         P_lYear_3Q = temp[0][1]
-        P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+        try:P_rate_3Q = P_lYear_3Q/R_lYear_3Q
+        except:P_rate_3Q = "N/A"
     else:
         R_lYear_3Q = "N/A"
         P_lYear_3Q = "N/A"
@@ -114,7 +119,8 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_lYear_4Q = temp[0][0]
         P_lYear_4Q = temp[0][1]
-        P_rate_4Q = P_lYear_4Q/R_lYear_4Q
+        try:P_rate_4Q = P_lYear_4Q/R_lYear_4Q
+        except:P_rate_4Q = "N/A"
     else:
         R_lYear_4Q = "N/A"
         P_lYear_4Q = "N/A"
@@ -124,7 +130,8 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_tYear_1Q = temp[0][0]
         P_tYear_1Q = temp[0][1]
-        P_rate_5Q = P_tYear_1Q/R_tYear_1Q
+        try:P_rate_5Q = P_tYear_1Q/R_tYear_1Q
+        except:P_rate_5Q = "N/A"
     else:
         R_tYear_1Q = "N/A"
         P_tYear_1Q = "N/A"
@@ -134,7 +141,8 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_tYear_2Q = temp[0][0]
         P_tYear_2Q = temp[0][1]
-        P_rate_6Q = P_tYear_2Q/R_tYear_2Q
+        try:P_rate_6Q = P_tYear_2Q/R_tYear_2Q
+        except:P_rate_6Q = "N/A"
     else:
         R_tYear_2Q = "N/A"
         P_tYear_2Q = "N/A"
@@ -144,7 +152,8 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_tYear_3Q = temp[0][0]
         P_tYear_3Q = temp[0][1]
-        P_rate_7Q = P_tYear_3Q/R_tYear_3Q
+        try:P_rate_7Q = P_tYear_3Q/R_tYear_3Q
+        except:P_rate_7Q = "N/A"
     else:
         R_tYear_3Q = "N/A"
         P_tYear_3Q = "N/A"
@@ -160,7 +169,10 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
 
 #'stk_cpt' table unavailable
     c_temp = conn.cursor()
-    c_temp.execute("SELECT stk_cpt from stk_cpt WHERE stk_num=%s"%stk_num)
+    try:
+        c_temp.execute("SELECT stk_cpt from stk_cpt WHERE stk_num=%s"%stk_num)
+    except:
+        stk_cpt_check = "no such table: stk_cpt"    
     temp = c_temp.fetchall()
     if len(temp)>0:
         stk_cpt = temp[0][0]
@@ -188,7 +200,7 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     try:
         c_temp.execute("SELECT avg_pe from stk_idt WHERE stk_num=%s"%stk_num)
     except:
-        print "no such table: stk_idt"
+        stk_idt_check = "no such table: stk_idt"
     temp = c_temp.fetchall()
     if len(temp)>0:
         avg_pe = temp[0][0]
@@ -273,15 +285,15 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     else:
         target_price = "N/A"
 
-    c.execute('''INSERT OR REPLACE INTO cal_co_qr(
+    insert_sql = '''INSERT OR REPLACE INTO cal_co_qr(    
                stk_num, stk_name,
-               %s ,%s ,P_rate_1Q NUM,
-               %s ,%s ,P_rate_2Q NUM,
-               %s ,%s ,P_rate_3Q NUM,
-               %s ,%s ,P_rate_4Q NUM,
-               %s ,%s ,P_rate_5Q NUM,
-               %s ,%s ,P_rate_6Q NUM,
-               %s ,%s ,P_rate_7Q NUM,
+               %s ,%s ,P_rate_1Q,
+               %s ,%s ,P_rate_2Q,
+               %s ,%s ,P_rate_3Q,
+               %s ,%s ,P_rate_4Q,
+               %s ,%s ,P_rate_5Q,
+               %s ,%s ,P_rate_6Q,
+               %s ,%s ,P_rate_7Q,
                %s ,%s ,
                %s ,%s ,
                forecast_EPS ,
@@ -296,20 +308,24 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
                      "R_"+tYear+"_2Q","P_"+tYear+"_2Q",
                      "R_"+tYear+"_3Q","P_"+tYear+"_3Q",
                      "FR_"+tYear+"_4Q","FP_"+tYear+"_4Q",
-                     "R_"+tYear+"_4Q","P_"+tYear+"_4Q"),              
-              (stk_num,stk_name,
-               R_lYear_1Q,P_lYear_1Q,P_rate_1Q,
-               R_lYear_2Q,P_lYear_2Q,P_rate_2Q,
-               R_lYear_3Q,P_lYear_3Q,P_rate_3Q,
-               R_lYear_4Q,P_lYear_4Q,P_rate_4Q,
-               R_tYear_1Q,P_tYear_1Q,P_rate_5Q,
-               R_tYear_2Q,P_tYear_2Q,P_rate_6Q,
-               R_tYear_3Q,P_tYear_3Q,P_rate_7Q,
-               FR_tYear_4Q,FP_tYear_4Q,
-               R_tYear_4Q,P_tYear_4Q,
-               forecast_EPS,lastyear_yoy,forecast_PE,target_price))
+                     "R_"+tYear+"_4Q","P_"+tYear+"_4Q")
+    #print insert_sql
+    conn.execute(insert_sql,              
+             (stk_num,stk_name,
+              R_lYear_1Q,P_lYear_1Q,P_rate_1Q,
+              R_lYear_2Q,P_lYear_2Q,P_rate_2Q,
+              R_lYear_3Q,P_lYear_3Q,P_rate_3Q,
+              R_lYear_4Q,P_lYear_4Q,P_rate_4Q,
+              R_tYear_1Q,P_tYear_1Q,P_rate_5Q,
+              R_tYear_2Q,P_tYear_2Q,P_rate_6Q,
+              R_tYear_3Q,P_tYear_3Q,P_rate_7Q,
+              FR_tYear_4Q,FP_tYear_4Q,
+              R_tYear_4Q,P_tYear_4Q,
+              forecast_EPS,lastyear_yoy,forecast_PE,target_price))
     conn.commit()
         
 c.close()
-print "Process Done."
+print stk_cpt_check
+print stk_idt_check 
+print "Done!"
 print("--- This program costs %0.2f seconds ---" % (time.time() - start_time))
