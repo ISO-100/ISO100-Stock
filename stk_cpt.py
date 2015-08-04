@@ -69,6 +69,9 @@ for stk_num in c.execute("SELECT stk_num from stk_lst"):
 =======
 #	print stk_num
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	try:
 		stk_cpt = stk_cpt_download(stk_num)
