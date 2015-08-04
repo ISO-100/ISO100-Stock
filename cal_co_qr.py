@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*- 
-#Created on 2015/07/30
-#Version 1.0
+#Update on 2015/08/04
+#Version 2.0
 #By Cong
 
 import urllib
@@ -61,111 +61,79 @@ def query_lst(arg1,arg2,arg3):
     dd = conn.cursor()
     dd.execute("SELECT operation_revenue,net_profit from CO_QR WHERE stk_num=%s AND QUARTER='%s'"% (arg1,arg2+arg3))
     rows = dd.fetchall()
-    return rows
+    list = [1,2,3]
+    if len(rows)>0:
+        list[0] = rows[0][0]
+        list[1] = rows[0][1]
+        try:list[2] = list[1]/list[0]
+        except:list[2] = "N/A"
+    else:
+        list[0] = "N/A"
+        list[1] = "N/A"
+        list[2] = "N/A"
+    return list
 
 stk_cpt_check = ""
 stk_idt_check = ""
 print "It will takes few mins, please wait..."
     
 for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
+
+    #stk_lst = ["202003","RC003"]
     stk_num = stk_lst[0]
     stk_name = stk_lst[1]
     #print stk_num
-    R_lYear_1Q = P_lYear_1Q = ""
-    R_lYear_2Q = P_lYear_2Q = ""
-    R_lYear_3Q = P_lYear_3Q = ""
-    R_lYear_4Q = P_lYear_4Q = ""
-    R_tYear_1Q = P_tYear_1Q = ""
-    R_tYear_2Q = P_tYear_2Q = ""
-    R_tYear_3Q = P_tYear_3Q = ""
-    R_tYear_4Q = P_tYear_4Q = ""
+    R_lYear_1Q = P_lYear_1Q = P_rate_1Q = ""
+    R_lYear_2Q = P_lYear_2Q = P_rate_2Q = ""
+    R_lYear_3Q = P_lYear_3Q = P_rate_3Q = ""
+    R_lYear_4Q = P_lYear_4Q = P_rate_4Q = ""
+    R_tYear_1Q = P_tYear_1Q = P_rate_5Q = ""
+    R_tYear_2Q = P_tYear_2Q = P_rate_6Q = ""
+    R_tYear_3Q = P_tYear_3Q = P_rate_7Q = ""
+    R_tYear_4Q = P_tYear_4Q = P_rate_8Q = ""
     FR_tYear_4Q = FP_tYear_4Q = ""
     forecast_EPS = lastyear_yoy = forecast_PE = target_price = ""
 
-    temp = query_lst(stk_num,lYear,"-1Q")
-    if len(temp)>0:
-        R_lYear_1Q = temp[0][0]
-        P_lYear_1Q = temp[0][1]
-        try:P_rate_1Q = P_lYear_1Q/R_lYear_1Q
-        except:P_rate_1Q = "N/A"
-    else:
-        R_lYear_1Q = "N/A"
-        P_lYear_1Q = "N/A"
-        P_rate_1Q = "N/A"
+    list_temp=query_lst(stk_num,lYear,"-1Q")
+    R_lYear_1Q=list_temp[0]
+    P_lYear_1Q=list_temp[1]
+    P_rate_1Q=list_temp[2]
+    #print R_lYear_1Q,P_lYear_1Q,P_rate_1Q
             
-    temp = query_lst(stk_num,lYear,"-2Q")
-    if len(temp)>0:
-        R_lYear_2Q = temp[0][0]
-        P_lYear_2Q = temp[0][1]
-        try:P_rate_2Q = P_lYear_2Q/R_lYear_2Q
-        except:P_rate_2Q = "N/A"
-    else:
-        R_lYear_2Q = "N/A"
-        P_lYear_2Q = "N/A"
-        P_rate_2Q = "N/A"
+    list_temp=query_lst(stk_num,lYear,"-2Q")
+    R_lYear_2Q=list_temp[0]
+    P_lYear_2Q=list_temp[1]
+    P_rate_2Q=list_temp[2]
 
-    temp = query_lst(stk_num,lYear,"-3Q")
-    if len(temp)>0:
-        R_lYear_3Q = temp[0][0]
-        P_lYear_3Q = temp[0][1]
-        try:P_rate_3Q = P_lYear_3Q/R_lYear_3Q
-        except:P_rate_3Q = "N/A"
-    else:
-        R_lYear_3Q = "N/A"
-        P_lYear_3Q = "N/A"
-        P_rate_3Q = "N/A"
+    list_temp=query_lst(stk_num,lYear,"-3Q")
+    R_lYear_3Q=list_temp[0]
+    P_lYear_3Q=list_temp[1]
+    P_rate_3Q=list_temp[2]
 
-    temp = query_lst(stk_num,lYear,"-4Q")
-    if len(temp)>0:
-        R_lYear_4Q = temp[0][0]
-        P_lYear_4Q = temp[0][1]
-        try:P_rate_4Q = P_lYear_4Q/R_lYear_4Q
-        except:P_rate_4Q = "N/A"
-    else:
-        R_lYear_4Q = "N/A"
-        P_lYear_4Q = "N/A"
-        P_rate_4Q = "N/A"
+    list_temp=query_lst(stk_num,lYear,"-4Q")
+    R_lYear_4Q=list_temp[0]
+    P_lYear_4Q=list_temp[1]
+    P_rate_4Q=list_temp[2]
 
-    temp = query_lst(stk_num,tYear,"-1Q")
-    if len(temp)>0:
-        R_tYear_1Q = temp[0][0]
-        P_tYear_1Q = temp[0][1]
-        try:P_rate_5Q = P_tYear_1Q/R_tYear_1Q
-        except:P_rate_5Q = "N/A"
-    else:
-        R_tYear_1Q = "N/A"
-        P_tYear_1Q = "N/A"
-        P_rate_5Q = "N/A"
+    list_temp=query_lst(stk_num,tYear,"-1Q")
+    R_tYear_1Q=list_temp[0]
+    P_tYear_1Q=list_temp[1]
+    P_rate_5Q=list_temp[2]
 
-    temp = query_lst(stk_num,tYear,"-2Q")
-    if len(temp)>0:
-        R_tYear_2Q = temp[0][0]
-        P_tYear_2Q = temp[0][1]
-        try:P_rate_6Q = P_tYear_2Q/R_tYear_2Q
-        except:P_rate_6Q = "N/A"
-    else:
-        R_tYear_2Q = "N/A"
-        P_tYear_2Q = "N/A"
-        P_rate_6Q = "N/A"
+    list_temp=query_lst(stk_num,tYear,"-2Q")
+    R_tYear_2Q=list_temp[0]
+    P_tYear_2Q=list_temp[1]
+    P_rate_6Q=list_temp[2]
 
-    temp = query_lst(stk_num,tYear,"-3Q")
-    if len(temp)>0:
-        R_tYear_3Q = temp[0][0]
-        P_tYear_3Q = temp[0][1]
-        try:P_rate_7Q = P_tYear_3Q/R_tYear_3Q
-        except:P_rate_7Q = "N/A"
-    else:
-        R_tYear_3Q = "N/A"
-        P_tYear_3Q = "N/A"
-        P_rate_7Q = "N/A"
+    list_temp=query_lst(stk_num,tYear,"-3Q")
+    R_tYear_3Q=list_temp[0]
+    P_tYear_3Q=list_temp[1]
+    P_rate_7Q=list_temp[2]
 
-    temp = query_lst(stk_num,tYear,"-4Q")
-    if len(temp)>0:
-        R_tYear_4Q = temp[0][0]
-        P_tYear_4Q = temp[0][1]
-    else:
-        R_tYear_4Q = "N/A"
-        P_tYear_4Q = "N/A"
+    list_temp=query_lst(stk_num,tYear,"-4Q")
+    R_tYear_4Q=list_temp[0]
+    P_tYear_4Q=list_temp[1]
+    P_rate_8Q=list_temp[2]
 
 #'stk_cpt' table unavailable
     c_temp = conn.cursor()
@@ -213,7 +181,7 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         if R_tYear_3Q != "N/A":
             if R_lYear_3Q != "N/A":
                 if R_lYear_3Q != "0":
-                    FR_tYear_4Q = R_lYear_4Q / R_lYear_3Q * R_tYear_3Q
+                    FR_tYear_4Q = int(R_lYear_4Q) / int(R_lYear_3Q) * int(R_tYear_3Q)
                 else:
                     FR_tYear_4Q = "N/A"
             else:
@@ -266,6 +234,9 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         else:
             FR_tYear_4Q = "N/A"
             FP_tYear_4Q = "N/A"
+    else:
+        FR_tYear_4Q = "N/A"
+        FP_tYear_4Q = "N/A"
 
     #计算财报预测EPS
     if FP_tYear_4Q != "N/A" and stk_cpt != "N/A":
@@ -300,7 +271,7 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
                lastyear_yoy ,
                forecast_PE ,
                target_price 
-               )VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'''%("R_"+lYear+"_1Q","P_"+lYear+"_1Q",                                                                                           
+               ) VALUES('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')'''%("R_"+lYear+"_1Q","P_"+lYear+"_1Q",                                                                                           
                      "R_"+lYear+"_2Q","P_"+lYear+"_2Q",
                      "R_"+lYear+"_3Q","P_"+lYear+"_3Q",
                      "R_"+lYear+"_4Q","P_"+lYear+"_4Q",
@@ -308,20 +279,20 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
                      "R_"+tYear+"_2Q","P_"+tYear+"_2Q",
                      "R_"+tYear+"_3Q","P_"+tYear+"_3Q",
                      "FR_"+tYear+"_4Q","FP_"+tYear+"_4Q",
-                     "R_"+tYear+"_4Q","P_"+tYear+"_4Q")
+                     "R_"+tYear+"_4Q","P_"+tYear+"_4Q",
+                     stk_num,stk_name,
+                     R_lYear_1Q,P_lYear_1Q,P_rate_1Q,
+                     R_lYear_2Q,P_lYear_2Q,P_rate_2Q,
+                     R_lYear_3Q,P_lYear_3Q,P_rate_3Q,
+                     R_lYear_4Q,P_lYear_4Q,P_rate_4Q,
+                     R_tYear_1Q,P_tYear_1Q,P_rate_5Q,
+                     R_tYear_2Q,P_tYear_2Q,P_rate_6Q,
+                     R_tYear_3Q,P_tYear_3Q,P_rate_7Q,
+                     FR_tYear_4Q,FP_tYear_4Q,
+                     R_tYear_4Q,P_tYear_4Q,
+                     forecast_EPS,lastyear_yoy,forecast_PE,target_price)
     #print insert_sql
-    conn.execute(insert_sql,              
-             (stk_num,stk_name,
-              R_lYear_1Q,P_lYear_1Q,P_rate_1Q,
-              R_lYear_2Q,P_lYear_2Q,P_rate_2Q,
-              R_lYear_3Q,P_lYear_3Q,P_rate_3Q,
-              R_lYear_4Q,P_lYear_4Q,P_rate_4Q,
-              R_tYear_1Q,P_tYear_1Q,P_rate_5Q,
-              R_tYear_2Q,P_tYear_2Q,P_rate_6Q,
-              R_tYear_3Q,P_tYear_3Q,P_rate_7Q,
-              FR_tYear_4Q,FP_tYear_4Q,
-              R_tYear_4Q,P_tYear_4Q,
-              forecast_EPS,lastyear_yoy,forecast_PE,target_price))
+    conn.execute(insert_sql)
     conn.commit()
         
 c.close()
