@@ -84,7 +84,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         R_lYear_1Q = temp[0][0]
         P_lYear_1Q = temp[0][1]
 <<<<<<< HEAD
+<<<<<<< HEAD
         P_rate_1Q = P_lYear_1Q/R_lYear_1Q
+=======
+        try:P_rate_1Q = P_lYear_1Q/R_lYear_1Q
+        except:P_rate_1Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
 =======
         try:P_rate_1Q = P_lYear_1Q/R_lYear_1Q
         except:P_rate_1Q = "N/A"
@@ -94,8 +99,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         P_lYear_1Q = "N/A"
         P_rate_1Q = "N/A"
 <<<<<<< HEAD
+<<<<<<< HEAD
     print R_lYear_1Q, P_lYear_1Q
         
+=======
+            
+>>>>>>> parent of 1743949... Update version 2.0
 =======
             
 >>>>>>> parent of 1743949... Update version 2.0
@@ -104,7 +113,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         R_lYear_2Q = temp[0][0]
         P_lYear_2Q = temp[0][1]
 <<<<<<< HEAD
+<<<<<<< HEAD
         P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+=======
+        try:P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+        except:P_rate_2Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
 =======
         try:P_rate_2Q = P_lYear_2Q/R_lYear_2Q
         except:P_rate_2Q = "N/A"
@@ -119,7 +133,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         R_lYear_3Q = temp[0][0]
         P_lYear_3Q = temp[0][1]
 <<<<<<< HEAD
+<<<<<<< HEAD
         P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+=======
+        try:P_rate_3Q = P_lYear_3Q/R_lYear_3Q
+        except:P_rate_3Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
 =======
         try:P_rate_3Q = P_lYear_3Q/R_lYear_3Q
         except:P_rate_3Q = "N/A"
@@ -134,7 +153,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         R_lYear_4Q = temp[0][0]
         P_lYear_4Q = temp[0][1]
 <<<<<<< HEAD
+<<<<<<< HEAD
         P_rate_4Q = P_lYear_4Q/R_lYear_4Q
+=======
+        try:P_rate_4Q = P_lYear_4Q/R_lYear_4Q
+        except:P_rate_4Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
 =======
         try:P_rate_4Q = P_lYear_4Q/R_lYear_4Q
         except:P_rate_4Q = "N/A"
@@ -149,7 +173,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         R_tYear_1Q = temp[0][0]
         P_tYear_1Q = temp[0][1]
 <<<<<<< HEAD
+<<<<<<< HEAD
         P_rate_5Q = P_tYear_1Q/R_tYear_1Q
+=======
+        try:P_rate_5Q = P_tYear_1Q/R_tYear_1Q
+        except:P_rate_5Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
 =======
         try:P_rate_5Q = P_tYear_1Q/R_tYear_1Q
         except:P_rate_5Q = "N/A"
@@ -164,7 +193,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         R_tYear_2Q = temp[0][0]
         P_tYear_2Q = temp[0][1]
 <<<<<<< HEAD
+<<<<<<< HEAD
         P_rate_6Q = P_tYear_2Q/R_tYear_2Q
+=======
+        try:P_rate_6Q = P_tYear_2Q/R_tYear_2Q
+        except:P_rate_6Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
 =======
         try:P_rate_6Q = P_tYear_2Q/R_tYear_2Q
         except:P_rate_6Q = "N/A"
@@ -179,7 +213,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
         R_tYear_3Q = temp[0][0]
         P_tYear_3Q = temp[0][1]
 <<<<<<< HEAD
+<<<<<<< HEAD
         P_rate_7Q = P_tYear_3Q/R_tYear_3Q
+=======
+        try:P_rate_7Q = P_tYear_3Q/R_tYear_3Q
+        except:P_rate_7Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
 =======
         try:P_rate_7Q = P_tYear_3Q/R_tYear_3Q
         except:P_rate_7Q = "N/A"
@@ -336,6 +375,7 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
                      "R_"+tYear+"_3Q","P_"+tYear+"_3Q",
                      "FR_"+tYear+"_4Q","FP_"+tYear+"_4Q",
 <<<<<<< HEAD
+<<<<<<< HEAD
                      "R_"+tYear+"_4Q","P_"+tYear+"_4Q"),              
               (stk_num,stk_name,
                R_lYear_1Q,P_lYear_1Q,P_rate_1Q,
@@ -349,6 +389,8 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
                R_tYear_4Q,P_tYear_4Q,
                forecast_EPS,lastyear_yoy,forecast_PE,target_price))
 =======
+=======
+>>>>>>> parent of 1743949... Update version 2.0
                      "R_"+tYear+"_4Q","P_"+tYear+"_4Q")
     #print insert_sql
     conn.execute(insert_sql,              
@@ -363,6 +405,9 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
               FR_tYear_4Q,FP_tYear_4Q,
               R_tYear_4Q,P_tYear_4Q,
               forecast_EPS,lastyear_yoy,forecast_PE,target_price))
+<<<<<<< HEAD
+>>>>>>> parent of 1743949... Update version 2.0
+=======
 >>>>>>> parent of 1743949... Update version 2.0
     conn.commit()
         
