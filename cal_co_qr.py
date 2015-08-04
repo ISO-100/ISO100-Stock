@@ -83,18 +83,32 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_lYear_1Q = temp[0][0]
         P_lYear_1Q = temp[0][1]
+<<<<<<< HEAD
         P_rate_1Q = P_lYear_1Q/R_lYear_1Q
+=======
+        try:P_rate_1Q = P_lYear_1Q/R_lYear_1Q
+        except:P_rate_1Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
     else:
         R_lYear_1Q = "N/A"
         P_lYear_1Q = "N/A"
         P_rate_1Q = "N/A"
+<<<<<<< HEAD
     print R_lYear_1Q, P_lYear_1Q
         
+=======
+            
+>>>>>>> parent of 1743949... Update version 2.0
     temp = query_lst(stk_num,lYear,"-2Q")
     if len(temp)>0:
         R_lYear_2Q = temp[0][0]
         P_lYear_2Q = temp[0][1]
+<<<<<<< HEAD
         P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+=======
+        try:P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+        except:P_rate_2Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
     else:
         R_lYear_2Q = "N/A"
         P_lYear_2Q = "N/A"
@@ -104,7 +118,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_lYear_3Q = temp[0][0]
         P_lYear_3Q = temp[0][1]
+<<<<<<< HEAD
         P_rate_2Q = P_lYear_2Q/R_lYear_2Q
+=======
+        try:P_rate_3Q = P_lYear_3Q/R_lYear_3Q
+        except:P_rate_3Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
     else:
         R_lYear_3Q = "N/A"
         P_lYear_3Q = "N/A"
@@ -114,7 +133,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_lYear_4Q = temp[0][0]
         P_lYear_4Q = temp[0][1]
+<<<<<<< HEAD
         P_rate_4Q = P_lYear_4Q/R_lYear_4Q
+=======
+        try:P_rate_4Q = P_lYear_4Q/R_lYear_4Q
+        except:P_rate_4Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
     else:
         R_lYear_4Q = "N/A"
         P_lYear_4Q = "N/A"
@@ -124,7 +148,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_tYear_1Q = temp[0][0]
         P_tYear_1Q = temp[0][1]
+<<<<<<< HEAD
         P_rate_5Q = P_tYear_1Q/R_tYear_1Q
+=======
+        try:P_rate_5Q = P_tYear_1Q/R_tYear_1Q
+        except:P_rate_5Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
     else:
         R_tYear_1Q = "N/A"
         P_tYear_1Q = "N/A"
@@ -134,7 +163,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_tYear_2Q = temp[0][0]
         P_tYear_2Q = temp[0][1]
+<<<<<<< HEAD
         P_rate_6Q = P_tYear_2Q/R_tYear_2Q
+=======
+        try:P_rate_6Q = P_tYear_2Q/R_tYear_2Q
+        except:P_rate_6Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
     else:
         R_tYear_2Q = "N/A"
         P_tYear_2Q = "N/A"
@@ -144,7 +178,12 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
     if len(temp)>0:
         R_tYear_3Q = temp[0][0]
         P_tYear_3Q = temp[0][1]
+<<<<<<< HEAD
         P_rate_7Q = P_tYear_3Q/R_tYear_3Q
+=======
+        try:P_rate_7Q = P_tYear_3Q/R_tYear_3Q
+        except:P_rate_7Q = "N/A"
+>>>>>>> parent of 1743949... Update version 2.0
     else:
         R_tYear_3Q = "N/A"
         P_tYear_3Q = "N/A"
@@ -296,6 +335,7 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
                      "R_"+tYear+"_2Q","P_"+tYear+"_2Q",
                      "R_"+tYear+"_3Q","P_"+tYear+"_3Q",
                      "FR_"+tYear+"_4Q","FP_"+tYear+"_4Q",
+<<<<<<< HEAD
                      "R_"+tYear+"_4Q","P_"+tYear+"_4Q"),              
               (stk_num,stk_name,
                R_lYear_1Q,P_lYear_1Q,P_rate_1Q,
@@ -308,6 +348,22 @@ for stk_lst in c.execute("SELECT stk_num,stk_name from stk_lst"):
                FR_tYear_4Q,FP_tYear_4Q,
                R_tYear_4Q,P_tYear_4Q,
                forecast_EPS,lastyear_yoy,forecast_PE,target_price))
+=======
+                     "R_"+tYear+"_4Q","P_"+tYear+"_4Q")
+    #print insert_sql
+    conn.execute(insert_sql,              
+             (stk_num,stk_name,
+              R_lYear_1Q,P_lYear_1Q,P_rate_1Q,
+              R_lYear_2Q,P_lYear_2Q,P_rate_2Q,
+              R_lYear_3Q,P_lYear_3Q,P_rate_3Q,
+              R_lYear_4Q,P_lYear_4Q,P_rate_4Q,
+              R_tYear_1Q,P_tYear_1Q,P_rate_5Q,
+              R_tYear_2Q,P_tYear_2Q,P_rate_6Q,
+              R_tYear_3Q,P_tYear_3Q,P_rate_7Q,
+              FR_tYear_4Q,FP_tYear_4Q,
+              R_tYear_4Q,P_tYear_4Q,
+              forecast_EPS,lastyear_yoy,forecast_PE,target_price))
+>>>>>>> parent of 1743949... Update version 2.0
     conn.commit()
         
 c.close()
