@@ -62,15 +62,20 @@ for stk_num in c.execute("SELECT stk_num from stk_lst"):
 #	c.execute("SELECT stk_name from stk_lst")
 #	stk_name = c.fetchone
 	stk_num = stk_num[0]
+<<<<<<< HEAD
 	#print stk_num
 	if not (stk_num.startswith("6") or stk_num.startswith("0")): continue
     #Added by Tea
+=======
+#	print stk_num
+
+>>>>>>> origin/master
 	try:
 		stk_cpt = stk_cpt_download(stk_num)
 	except:
 		print 'missing %s' %stk_num
 	conn.execute('''INSERT OR REPLACE INTO stk_cpt (
-                    stk_num,  stk_cpt,date) 
+                    stk_num,stk_cpt,date) 
                     VALUES (?,?,?)''',
                     (stk_num,stk_cpt,date))
 	conn.commit()
