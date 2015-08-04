@@ -24,6 +24,8 @@ def __init_table__():
             org_predict_peg NUM,
             target_price NUM
             )''')
+    con.close()
+    
 def eps_everage():
     con = sqlite3.connect('stock.sqlite')
     cur = con.cursor()

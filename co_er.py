@@ -15,7 +15,7 @@ def main():
         year = raw_input("Please input the year (2014,2015):")
         quarter = raw_input("Please input the quarter (1,2,3,4):")
         try:
-            if int(year) < 2015 and int(quarter) in [1,2,3,4]:
+            if int(year) <= 2015 and int(quarter) in [1,2,3,4]:
                 break
             else:
                 print "Wrong input, please try again"

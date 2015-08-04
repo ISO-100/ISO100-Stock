@@ -20,32 +20,29 @@ hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML,
 	   
 def stk_cpt_download(i):
 
-	url = 'http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockStructure/stockid/'
-	url = url + str(i) + '.phtml'
-#	print 'Assecing url %s' %str(i)
+    url = 'http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockStructure/stockid/'
+    url = url + str(i) + '.phtml'
+    print 'Assecing url %s' %str(url)
 
-	url=urllib2.Request(url,headers=hdr)
-	html = urllib2.urlopen(url).read()
-	file_stk = open('cpt_temp.txt','w')
-	file_stk.write(html)
-	file_stk.close()
-
+    url=urllib2.Request(url,headers=hdr)
+    html = urllib2.urlopen(url).read()
+    file_stk = open('cpt_temp.txt','w')
+    file_stk.write(html)
+    file_stk.close()
 #	print 'finished url reading'
 
-	file_stk=open('cpt_tem.txt')
+    file_stk=open('cpt_temp.txt')
 #	print 'checking file'
-
-	for line in file_stk:
-		cpt = 0
-		cpt_temp = re.findall('TotalStock.*?<td>([0-9.]*)',line)
-		if len(cpt_temp) >0:
-			try:
+    for line in file_stk:
+        cpt = 0
+        cpt_temp = re.findall('TotalStock.*?<td>([0-9.]*)',line)
+        if len(cpt_temp) >0:
+            try:
 				cpt = float(cpt_temp[0])
-			except:
-				print 'Error:cpt is not a number'
-			break
-#	print cpt
-	return cpt
+            except:
+                print 'Error:cpt is not a number'
+            break
+    return cpt
 	
 #	print 'done cpt'
 
@@ -65,8 +62,9 @@ for stk_num in c.execute("SELECT stk_num from stk_lst"):
 #	c.execute("SELECT stk_name from stk_lst")
 #	stk_name = c.fetchone
 	stk_num = stk_num[0]
-#	print stk_num
-	
+	#print stk_num
+	if not (stk_num.startswith("6") or stk_num.startswith("0")): continue
+    #Added by Tea
 	try:
 		stk_cpt = stk_cpt_download(stk_num)
 	except:
@@ -75,7 +73,8 @@ for stk_num in c.execute("SELECT stk_num from stk_lst"):
                     stk_num,  stk_cpt,date) 
                     VALUES (?,?,?)''',
                     (stk_num,stk_cpt,date))
-conn.commit()                
+	conn.commit()
+    
 c.close() 
 		
 print 'done'
