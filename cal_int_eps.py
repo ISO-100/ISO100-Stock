@@ -1,37 +1,54 @@
 # -*- coding:utf-8 -*- 
 #Created on 2015/07/28
-#By Tea Shaw
+#By Teague Xiao
+#Last updated on 2016/05/14: Modify from using SQLite to Mysql - Teague Xiao
 #This script is to calculate and average all the eps predicted by every organization
 
-import sqlite3
+#import sqlite3
+import MySQLdb
 import time
+import os
+import ConfigParser
+import sys
 
+#For fixing 'ascii' codec can't encode characters in position 0-2: ordinal not in range(128) ERROR
+reload(sys)
+sys.setdefaultencoding('utf-8')
 def __init_table__():
-    con = sqlite3.connect('stock.sqlite')
-    con.execute('''CREATE TABLE IF NOT EXISTS cal_int_eps(
-            stk_num CHAR PRIMARY KEY,
-            stk_name CHAR,
-            eps_y14_evg NUM,
-            eps_y15_evg NUM,
-            eps_y16_evg NUM,
-            eps_y17_evg NUM,
-            y14_to_y15_growth NUM,
-            y15_to_y16_growth NUM,
-            y16_to_y17_growth NUM,
-            avg_growth_rate NUM,
-            compound_growth_rate NUM,
-            org_predict_pe NUM,
-            org_predict_peg NUM,
-            target_price NUM
+    #con = sqlite3.connect('stock.sqlite')
+    Config = ConfigParser.ConfigParser()
+    Config.read("settings.ini")
+    con = MySQLdb.connect( Config.get('mysql', 'host'), Config.get('mysql', 'username'), Config.get('mysql', 'password'), Config.get('mysql', 'DB'), charset="utf8" )
+    c = con.cursor()
+    c.execute('''CREATE TABLE IF NOT EXISTS cal_int_eps(
+            stk_num CHAR(20) PRIMARY KEY,
+            stk_name CHAR(20),
+            eps_y14_evg float(5,2),
+            eps_y15_evg float(5,2),
+            eps_y16_evg float(5,2),
+            eps_y17_evg float(5,2),
+            y14_to_y15_growth float(6,4),
+            y15_to_y16_growth float(6,4),
+            y16_to_y17_growth float(6,4),
+            avg_growth_rate float(6,4),
+            compound_growth_rate float(6,4),
+            org_predict_pe float(10,2),
+            org_predict_peg float(10,2),
+            target_price float(5,2)
             )''')
     con.close()
     
 def eps_everage():
-    con = sqlite3.connect('stock.sqlite')
-    cur = con.cursor()
+    #con = sqlite3.connect('stock.sqlite')
+    #cur = con.cursor()
+    Config = ConfigParser.ConfigParser()
+    Config.read("settings.ini")
+    con = MySQLdb.connect( Config.get('mysql', 'host'), Config.get('mysql', 'username'), Config.get('mysql', 'password'), Config.get('mysql', 'DB'), charset="utf8" )
+    c = con.cursor()
     stock = dict()
     k = 0
-    for stk_num, stk_name in cur.execute("SELECT stk_num,stk_name from stk_lst"):
+    c.execute("SELECT stk_num,stk_name from stk_lst")
+    for stk_num ,stk_name in c.fetchall():
         if not (stk_num.startswith("6") or stk_num.startswith("0")): continue
         stock[stk_num] = stk_name
     
@@ -46,14 +63,14 @@ def eps_everage():
         eps_y16_lst = list()
         eps_y17_lst = list()
         i = 0
-        cur.execute("SELECT COUNT(*) from int_eps where stk_num = ?", (stk_num,))
-        number = cur.fetchone()[0]
+        c.execute("SELECT COUNT(*) from int_eps where stk_num = %s", (stk_num,))
+        number = c.fetchone()[0]
         if number == 0: continue
         print number
-        cur.execute("SELECT * from int_eps where stk_num = ?", (stk_num,))
+        c.execute("SELECT * from int_eps where stk_num = %s", (stk_num,))
         
         while i < number:
-            item = cur.fetchone()
+            item = c.fetchone()
             eps_y14_lst.append(item[2])
             eps_y15_lst.append(item[3])
             eps_y16_lst.append(item[4])
@@ -117,9 +134,9 @@ def eps_everage():
         print avg_growth_rate
         print compound_growth_rate
         
-        cur.execute("SELECT current_prc FROM stk_prc where stk_num = ?", (stk_num,))
+        c.execute("SELECT current_prc FROM stk_prc where stk_num = %s", (stk_num,))
         try:
-            stk_price = cur.fetchone()[0]
+            stk_price = c.fetchone()[0]
         except TypeError:
             print "%s - %s has no current price" %(stk_num,stk_name)
             continue
@@ -141,13 +158,13 @@ def eps_everage():
             target_price = eps_y15_evg * y14_to_y15_growth * 100
         except TypeError:
             target_price = "--"
-        con.execute('''INSERT OR REPLACE INTO cal_int_eps (
+        c.execute('''REPLACE INTO cal_int_eps (
                 stk_num,stk_name,eps_y14_evg,eps_y15_evg,eps_y16_evg,eps_y17_evg,y14_to_y15_growth,y15_to_y16_growth,y16_to_y17_growth,avg_growth_rate,compound_growth_rate,org_predict_pe,org_predict_peg,target_price)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
+                VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''',
                 (stk_num,stk_name,eps_y14_evg,eps_y15_evg,eps_y16_evg,eps_y17_evg,y14_to_y15_growth,y15_to_y16_growth,y16_to_y17_growth,avg_growth_rate,compound_growth_rate,org_predict_pe,org_predict_peg,target_price))
         con.commit()
         
-    con.close()
+    c.close()
     
 def main():
     __init_table__()

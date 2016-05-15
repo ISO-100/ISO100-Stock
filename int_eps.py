@@ -1,13 +1,23 @@
 # -*- coding:utf-8 -*- 
 #Created on 2015/07/14
 #By Tea Shaw
+#Last updated on 2016/05/14: Modify from using SQLite to Mysql - Teague Xiao
 #This script is to download expected EPS for different organization
 #Sample URL: http://vip.stock.finance.sina.com.cn/q/go.php/vPerformancePrediction/kind/eps/index.phtml?num=60&p=1
 
 import urllib
-import sqlite3
+#import sqlite3
+import MySQLdb
 import re
 import time
+
+import os
+import ConfigParser
+import sys
+
+#For fixing 'ascii' codec can't encode characters in position 0-2: ordinal not in range(128) ERROR
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 def int_eps_download(i,filename):
     url = 'http://vip.stock.finance.sina.com.cn/q/go.php/vPerformancePrediction/kind/eps/index.phtml?num=60&p='
@@ -53,27 +63,31 @@ def int_eps_re(filename):
     return eps_data
     
 def int_eps_store(eps_data):
-    con = sqlite3.connect('stock.sqlite')
+    #con = sqlite3.connect('stock.sqlite')
     #con.execute("DROP TABLE IF EXISTS int_eps")
-    con.execute('''CREATE TABLE IF NOT EXISTS int_eps(
-            stk_num CHAR,
-            stk_name CHAR,
-            eps_y14 NUM,
-            eps_y15 NUM,
-            eps_y16 NUM,
-            eps_y17 NUM,
-            date TEXT,
-            org_name CHAR,
-            author CHAR,
+    Config = ConfigParser.ConfigParser()
+    Config.read("settings.ini")
+    con = MySQLdb.connect( Config.get('mysql', 'host'), Config.get('mysql', 'username'), Config.get('mysql', 'password'), Config.get('mysql', 'DB'), charset="utf8" )
+    c = con.cursor()
+    c.execute('''CREATE TABLE IF NOT EXISTS int_eps(
+            stk_num CHAR(20),
+            stk_name CHAR(20),
+            eps_y14 float,
+            eps_y15 float,
+            eps_y16 float,
+            eps_y17 float,
+            date CHAR(20),
+            org_name CHAR(20),
+            author CHAR(20),
             PRIMARY KEY (stk_num,date,org_name)
             )''')
     while len(eps_data) > 0:
-        con.execute('''INSERT OR REPLACE INTO int_eps (stk_num,stk_name,eps_y14,eps_y15,eps_y16,eps_y17,date,org_name,author) 
-        VALUES(?,?,?,?,?,?,?,?,?)''',
+        c.execute('''REPLACE INTO int_eps (stk_num,stk_name,eps_y14,eps_y15,eps_y16,eps_y17,date,org_name,author) 
+        VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)''',
         (eps_data[0],eps_data[1],eps_data[2],eps_data[3],eps_data[4],eps_data[5],eps_data[6],eps_data[7],eps_data[8]))
         con.commit()
         eps_data = eps_data[9:]
-    con.close()
+    c.close()
     
 def main():
     page = 1

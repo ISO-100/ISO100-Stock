@@ -1,13 +1,15 @@
 # -*- coding:utf-8 -*- 
 #Created on 2015/06/15
-#By Tea Shaw
+#Last modified on 2016/05/04
+#By Teague Xiao
 #This script is to download the latest Stock list from Eastmoney.com
 #Website: http://quote.eastmoney.com/stocklist.html
 
 import urllib
 import re
-#from bs4 import BeautifulSoup
-import sqlite3
+import MySQLdb
+import os
+import ConfigParser
 
 def stk_lst_download():
     url = 'http://quote.eastmoney.com/stocklist.html'
@@ -25,8 +27,11 @@ def stk_lst_download():
 def stk_lst_re():
     fopen1 = open("stk_lst_page.txt")
     #fopen2 = open("stk_lst_final.txt","w")
-    con = sqlite3.connect('stock.sqlite')
-    #cur = con.cursor()
+    #con = sqlite3.connect('stock.sqlite')
+    Config = ConfigParser.ConfigParser()
+    Config.read("settings.ini")
+    con = MySQLdb.connect( Config.get('mysql', 'host'), Config.get('mysql', 'username'), Config.get('mysql', 'password'), Config.get('mysql', 'DB'), charset="utf8" )
+    cur = con.cursor()
     for line in fopen1:
         stock_num_re = re.findall('">.*\(([0-9]*)', line)
         #print stock_num_re
@@ -39,18 +44,13 @@ def stk_lst_re():
             stock_name = stock_name_re[0].decode('gb2312','ignore')
         else:
             continue
-        con.execute("CREATE TABLE IF NOT EXISTS stk_lst(stk_num CHAR PRIMARY KEY,stk_name CHAR)")
-        con.execute("INSERT OR REPLACE INTO stk_lst (stk_num, stk_name) VALUES(?,?)",(stock_num,stock_name))
+        cur.execute("REPLACE INTO stk_lst (stk_num, stk_name) VALUES(%s, %s)", (stock_num,stock_name))
         con.commit()
-        #print stock_num, stock_name
-        #fopen2.write(stock_num)
-        #fopen2.write('\t')
-        #fopen2.write(stock_name)
-        #fopen2.write('\n')
-    #fopen1.close()    
-    #fopen2.close()
+        print stock_num, stock_name
     con.close()
-   
-stk_lst_download()
-stk_lst_re()
+    fopen1.close()
+
+if __name__ == "__main__":
+    stk_lst_download()
+    stk_lst_re()
 #print "stk_lst process done!"
