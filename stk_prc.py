@@ -21,7 +21,7 @@ con = MySQLdb.connect( Config.get('mysql', 'host'), Config.get('mysql', 'usernam
 c = con.cursor()
 
 c.execute('''CREATE TABLE IF NOT EXISTS stk_prc(
-                stk_num INT PRIMARY KEY,
+                stk_num CHAR(20) PRIMARY KEY,
                 stk_name CHAR(20),
                 open_prc float,
                 close_prc float,
