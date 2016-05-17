@@ -44,11 +44,12 @@ def co_er_download(i,year,quarter):
     print "Accessing %s" %url
     try: html = urllib2.urlopen(url).read()
     except urllib2.HTTPError: print "Invalid URL"
-    soup = BeautifulSoup(html,from_encoding="gb18030")
+    #soup = BeautifulSoup(html,from_encoding="gb18030")
+    soup = BeautifulSoup(html,"html.parser",from_encoding="gb18030")
     tb = soup.find("table",id="dataTable")
     j = 4
     reslut = list()
-    tb = tb.contents[4]
+    #tb = tb.contents[4]
     #print tbcontents[4].contents[3].string
     
     while j <= 116:
