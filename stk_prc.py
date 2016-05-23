@@ -43,6 +43,8 @@ for stk_num in c.fetchall():
         url = 'http://hq.sinajs.cn/list=sh' + stk_num
     elif stk_num.startswith('0'):
         url = 'http://hq.sinajs.cn/list=sz' + stk_num
+    elif stk_num.startswith('3'):
+        url = 'http://hq.sinajs.cn/list=sz' + stk_num
     else:
         print 'Invalid stock number!'
         continue
