@@ -44,6 +44,8 @@ def stk_lst_re():
             stock_name = stock_name_re[0].decode('gb2312','ignore')
         else:
             continue
+        #Remove the spaces between charaters
+        stock_name = stock_name.replace(" ", "")
         cur.execute("REPLACE INTO stk_lst (stk_num, stk_name) VALUES(%s, %s)", (stock_num,stock_name))
         con.commit()
         print stock_num, stock_name

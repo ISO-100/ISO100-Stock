@@ -57,7 +57,7 @@ for stk_num in c.fetchall():
     #stk_name = start[-8:].decode('gb2312','ignore')
     stk_name = start[21:].decode('gb2312','ignore')
     #Remove the spaces between charaters
-    stk_name.replace(" ", "")
+    stk_name = stk_name.replace(" ", "")
     #print len(html)
     if len(html) == 24:
         continue
