@@ -53,10 +53,16 @@ c.execute('''CREATE TABLE IF NOT EXISTS co_qr(
                 constraint pk_co_qr primary key(stk_num,publication_date)
                 )''')
 
-year = raw_input("Input Year Likes 2014:")
-quarter = raw_input("Input Quarter Likes 3:")
+#year = raw_input("Input Year Likes 2016:")
+#quarter = raw_input("Input Quarter Likes 3:")
 quar = "?"
 
+if sys.argv[1] == "help":
+    print "For getting co_qr for year 2016 quater 1: \n python co_qr.py 2016 1"
+    exit()
+year = sys.argv[1]
+quarter = sys.argv[2]
+        
 
 if quarter=="1":
     quar="-03-31"
