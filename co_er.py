@@ -3,6 +3,7 @@
 #By Tea Shaw
 #Last updated on 2016/05/13: Modify from using SQLite to Mysql - Teague Xiao
 #http://vip.stock.finance.sina.com.cn/q/go.php/vFinanceAnalyze/kind/performance/index.phtml?s_i=&s_a=&s_c=&s_type=&reportdate=2015&quarter=2&p=1&num=60
+#Usage: python co_er.py 2016 1
 
 from bs4 import BeautifulSoup
 #import sqlite3
@@ -25,8 +26,14 @@ def main():
         #year = raw_input("Please input the year (2015,2016):")
         #quarter = raw_input("Please input the quarter (1,2,3,4):")
         #for development
-        year = '2016'
-        quarter = '1'
+        #year = '2016'
+        #quarter = '1'
+        if sys.argv[1] == "help":
+            print "For getting co_er for year 2016 quater 1: \n python co_er.py 2016 1"
+            exit()
+        year = sys.argv[1]
+        quarter = sys.argv[2]
+        
         try:
             if int(year) <= 2016 and int(quarter) in [1,2,3,4]:
                 break
