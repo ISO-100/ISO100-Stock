@@ -13,7 +13,7 @@ def main():
     con = MySQLdb.connect( Config.get('mysql', 'host'), Config.get('mysql', 'username'), Config.get('mysql', 'password'), Config.get('mysql', 'DB'), charset="utf8" )
     c = con.cursor()
     
-    c.execute('''CREATE TABLE IF NOT EXISTS rst_stk_info(
+    c.execute('''CREATE TABLE IF NOT EXISTS rst_stk_flt(
                 stk_num CHAR(20) PRIMARY KEY,
                 stk_name CHAR(20),
                 eps_y16_evg float(5,2),
@@ -40,7 +40,7 @@ def main():
             org_predict_pe = fetch[2]
             org_predict_peg = fetch[3]
             target_price = fetch[4]
-            c.execute('''REPLACE INTO rst_stk_info (
+            c.execute('''REPLACE INTO rst_stk_flt (
                     stk_num,stk_name,eps_y16_evg,y15_to_y16_growth,org_predict_pe,org_predict_peg,target_price)
                     VALUES (%s,%s,%s,%s,%s,%s,%s)''',
                     (stk_num,stk_name,eps_y16_evg,y15_to_y16_growth,org_predict_pe,org_predict_peg,target_price))
