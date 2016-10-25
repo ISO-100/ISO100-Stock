@@ -3,6 +3,7 @@
 #By Teague Xiao
 #Last updated on 2016/05/14: Modify from using SQLite to Mysql - Teague Xiao
 #This script is to calculate and average all the eps predicted by every organization
+#Last Modified on 2016/10/25
 
 #import sqlite3
 import MySQLdb
@@ -23,13 +24,13 @@ def __init_table__():
     c.execute('''CREATE TABLE IF NOT EXISTS cal_int_eps(
             stk_num CHAR(20) PRIMARY KEY,
             stk_name CHAR(20),
-            eps_y14_evg float(5,2),
             eps_y15_evg float(5,2),
             eps_y16_evg float(5,2),
             eps_y17_evg float(5,2),
-            y14_to_y15_growth float(6,4),
+            eps_y18_evg float(5,2),
             y15_to_y16_growth float(6,4),
             y16_to_y17_growth float(6,4),
+            y17_to_y18_growth float(6,4),
             avg_growth_rate float(6,4),
             compound_growth_rate float(6,4),
             org_predict_pe float(10,2),
@@ -58,10 +59,10 @@ def eps_everage():
         stk_name = stock[stk_num]
         print stk_num
         print stk_name
-        eps_y14_lst = list()
         eps_y15_lst = list()
         eps_y16_lst = list()
         eps_y17_lst = list()
+        eps_y18_lst = list()
         i = 0
         c.execute("SELECT COUNT(*) from int_eps where stk_num = %s", (stk_num,))
         number = c.fetchone()[0]
@@ -71,19 +72,15 @@ def eps_everage():
         
         while i < number:
             item = c.fetchone()
-            eps_y14_lst.append(item[2])
-            eps_y15_lst.append(item[3])
-            eps_y16_lst.append(item[4])
-            eps_y17_lst.append(item[5])
+            eps_y15_lst.append(item[2])
+            eps_y16_lst.append(item[3])
+            eps_y17_lst.append(item[4])
+            eps_y18_lst.append(item[5])
             i = i + 1
-        eps_y14_lst = filter(lambda a: a != "--", eps_y14_lst)
         eps_y15_lst = filter(lambda a: a != "--", eps_y15_lst)
         eps_y16_lst = filter(lambda a: a != "--", eps_y16_lst)
         eps_y17_lst = filter(lambda a: a != "--", eps_y17_lst)
-        if len(eps_y14_lst) > 0:
-            eps_y14_evg = reduce(lambda x, y: x + y, eps_y14_lst) / len(eps_y14_lst)
-        else:
-            eps_y14_evg = "--"
+        eps_y18_lst = filter(lambda a: a != "--", eps_y18_lst)
         if len(eps_y15_lst) > 0:
             eps_y15_evg = reduce(lambda x, y: x + y, eps_y15_lst) / len(eps_y15_lst)
         else:
@@ -96,16 +93,16 @@ def eps_everage():
             eps_y17_evg = reduce(lambda x, y: x + y, eps_y17_lst) / len(eps_y17_lst)
         else:
             eps_y17_evg = "--"
+        if len(eps_y18_lst) > 0:
+            eps_y18_evg = reduce(lambda x, y: x + y, eps_y18_lst) / len(eps_y18_lst)
+        else:
+            eps_y18_evg = "--"
             
-        print eps_y14_evg
         print eps_y15_evg
         print eps_y16_evg
         print eps_y17_evg
+        print eps_y18_evg
         
-        try:
-            y14_to_y15_growth = (eps_y15_evg - eps_y14_evg) / eps_y14_evg
-        except (TypeError, ZeroDivisionError):
-            y14_to_y15_growth = "--"
         try:
             y15_to_y16_growth = (eps_y16_evg - eps_y15_evg) / eps_y15_evg
         except (TypeError, ZeroDivisionError):
@@ -114,12 +111,16 @@ def eps_everage():
             y16_to_y17_growth = (eps_y17_evg - eps_y16_evg) / eps_y16_evg
         except (TypeError, ZeroDivisionError):
             y16_to_y17_growth = "--"
+        try:
+            y17_to_y18_growth = (eps_y18_evg - eps_y17_evg) / eps_y17_evg
+        except (TypeError, ZeroDivisionError):
+            y17_to_y18_growth = "--"
             
-        print y14_to_y15_growth
         print y15_to_y16_growth
         print y16_to_y17_growth
+        print y17_to_y18_growth
         
-        eps_everage_lst = filter(lambda a: a != "--", [eps_y14_evg, eps_y15_evg,eps_y16_evg,eps_y17_evg])
+        eps_everage_lst = filter(lambda a: a != "--", [eps_y15_evg, eps_y16_evg,eps_y17_evg,eps_y18_evg])
         #print eps_everage_lst
         try:
             avg_growth_rate = (eps_everage_lst[-1] / eps_everage_lst[0] - 1) / len(eps_everage_lst)
@@ -143,25 +144,25 @@ def eps_everage():
         
         #PE = Price / EPS
         try:
-            org_predict_pe = stk_price / eps_y15_evg
+            org_predict_pe = stk_price / eps_y16_evg
         except (TypeError, ZeroDivisionError):
             org_predict_pe = "--"
             
         #PEG = PE / 14to15 Grow Rate
         try:
-            org_predict_peg = org_predict_pe / y14_to_y15_growth
+            org_predict_peg = org_predict_pe / y15_to_y16_growth
         except (TypeError, ZeroDivisionError):
             org_predict_peg ="--"
         
         #Price = PE * 14to15 Grow Rate
         try:
-            target_price = eps_y15_evg * y14_to_y15_growth * 100
+            target_price = eps_y16_evg * y15_to_y16_growth * 100
         except TypeError:
             target_price = "--"
         c.execute('''REPLACE INTO cal_int_eps (
-                stk_num,stk_name,eps_y14_evg,eps_y15_evg,eps_y16_evg,eps_y17_evg,y14_to_y15_growth,y15_to_y16_growth,y16_to_y17_growth,avg_growth_rate,compound_growth_rate,org_predict_pe,org_predict_peg,target_price)
+                stk_num,stk_name,eps_y15_evg,eps_y16_evg,eps_y17_evg,eps_y18_evg,y15_to_y16_growth,y16_to_y17_growth,y17_to_y18_growth,avg_growth_rate,compound_growth_rate,org_predict_pe,org_predict_peg,target_price)
                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''',
-                (stk_num,stk_name,eps_y14_evg,eps_y15_evg,eps_y16_evg,eps_y17_evg,y14_to_y15_growth,y15_to_y16_growth,y16_to_y17_growth,avg_growth_rate,compound_growth_rate,org_predict_pe,org_predict_peg,target_price))
+                (stk_num,stk_name,eps_y15_evg,eps_y16_evg,eps_y17_evg,eps_y18_evg,y15_to_y16_growth,y16_to_y17_growth,y17_to_y18_growth,avg_growth_rate,compound_growth_rate,org_predict_pe,org_predict_peg,target_price))
         con.commit()
         
     c.close()

@@ -35,8 +35,7 @@
     </dl>
     <div id="ads_20150123" style="height:90px;position:relative;overflow:hidden;">
                                                <ul style="">
-                                                        <li style="height:90px;"><a href="http://jiaoyi.sina.com.cn/jy/articles.php" target="_blank"><img src="http://n.sinaimg.cn/finance/b3a4f934/20160509/1000-80.jpg"/></a></li>
-												   <li style="height:90px;"><a href="http://finance.sina.com.cn/focus/jiaoyi/mgds/index.shtml" target="_blank"><img src="http://n.sinaimg.cn/finance/b3a4f934/20160413/1000-80amg.jpg"/></a></li>
+												   <li style="height:90px;"><a href="http://finance.sina.com.cn/focus/jiaoyi/ypds/intro.shtml" target="_blank"><img src="http://n.sinaimg.cn/finance/b3a4f934/20160726/980-901.png"/></a></li>
                                                         <li style="height:90px;"><a target="_blank" href="http://finance.sina.com.cn/data/ing.html"><img src="http://www.sinaimg.cn/cj/imgtable/idx/2016/0224/U12678P31T88D31901F2012DT20160224103417.png"/></a></li>
 
                                               </ul>
@@ -189,10 +188,730 @@
                     <td>研报</td>
                 </tr>
                 </thead><!--e-->
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002563&contry=stock" target="_blank">sz002563</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002563&contry=stock" target="_blank">森马服饰</a></td>
+        <td>0.50</td>
+        <td>0.61</td>
+        <td>0.75</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=招商证券股份有限公司">招商证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=孙妤">孙妤</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477386/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300038&contry=stock" target="_blank">sz300038</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300038&contry=stock" target="_blank">梅泰诺</a></td>
+        <td>0.35</td>
+        <td>0.80</td>
+        <td>1.00</td>
+        <td>1.13</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=宋嘉吉,王胜">宋嘉吉,王胜</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477837/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600050&contry=stock" target="_blank">sh600050</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600050&contry=stock" target="_blank">中国联通</a></td>
+        <td>0.16</td>
+        <td>0.25</td>
+        <td>0.26</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=宋嘉吉,王胜">宋嘉吉,王胜</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477837/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002281&contry=stock" target="_blank">sz002281</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002281&contry=stock" target="_blank">光迅科技</a></td>
+        <td>1.16</td>
+        <td>1.58</td>
+        <td>2.61</td>
+        <td>3.42</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=宋嘉吉,王胜">宋嘉吉,王胜</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477837/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300394&contry=stock" target="_blank">sz300394</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300394&contry=stock" target="_blank">天孚通信</a></td>
+        <td>1.44</td>
+        <td>0.76</td>
+        <td>1.11</td>
+        <td>1.58</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=宋嘉吉,王胜">宋嘉吉,王胜</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477837/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600487&contry=stock" target="_blank">sh600487</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600487&contry=stock" target="_blank">亨通光电</a></td>
+        <td>0.46</td>
+        <td>1.05</td>
+        <td>1.28</td>
+        <td>1.45</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=宋嘉吉,王胜">宋嘉吉,王胜</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477837/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600105&contry=stock" target="_blank">sh600105</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600105&contry=stock" target="_blank">永鼎股份</a></td>
+        <td>0.40</td>
+        <td>0.35</td>
+        <td>0.48</td>
+        <td>0.64</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=宋嘉吉,王胜">宋嘉吉,王胜</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477837/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002345&contry=stock" target="_blank">sz002345</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002345&contry=stock" target="_blank">潮宏基</a></td>
+        <td>0.30</td>
+        <td>0.35</td>
+        <td>0.43</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603899&contry=stock" target="_blank">sh603899</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603899&contry=stock" target="_blank">晨光文具</a></td>
+        <td>0.93</td>
+        <td>0.54</td>
+        <td>0.68</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603008&contry=stock" target="_blank">sh603008</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603008&contry=stock" target="_blank">喜临门</a></td>
+        <td>0.61</td>
+        <td>0.82</td>
+        <td>1.07</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh601515&contry=stock" target="_blank">sh601515</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh601515&contry=stock" target="_blank">东风股份</a></td>
+        <td>0.67</td>
+        <td>0.61</td>
+        <td>0.78</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002103&contry=stock" target="_blank">sz002103</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002103&contry=stock" target="_blank">广博股份</a></td>
+        <td>0.31</td>
+        <td>0.44</td>
+        <td>0.86</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002014&contry=stock" target="_blank">sz002014</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002014&contry=stock" target="_blank">永新股份</a></td>
+        <td>0.55</td>
+        <td>0.61</td>
+        <td>0.72</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002191&contry=stock" target="_blank">sz002191</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002191&contry=stock" target="_blank">劲嘉股份</a></td>
+        <td>0.56</td>
+        <td>0.64</td>
+        <td>0.73</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002701&contry=stock" target="_blank">sz002701</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002701&contry=stock" target="_blank">奥瑞金</a></td>
+        <td>1.04</td>
+        <td>0.52</td>
+        <td>0.61</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600308&contry=stock" target="_blank">sh600308</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600308&contry=stock" target="_blank">华泰股份</a></td>
+        <td>0.06</td>
+        <td>0.13</td>
+        <td>0.21</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600966&contry=stock" target="_blank">sh600966</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600966&contry=stock" target="_blank">博汇纸业</a></td>
+        <td>0.03</td>
+        <td>0.11</td>
+        <td>0.13</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600567&contry=stock" target="_blank">sh600567</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600567&contry=stock" target="_blank">山鹰纸业</a></td>
+        <td>0.06</td>
+        <td>0.06</td>
+        <td>0.11</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002067&contry=stock" target="_blank">sz002067</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002067&contry=stock" target="_blank">景兴纸业</a></td>
+        <td>0.01</td>
+        <td>0.20</td>
+        <td>0.04</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600356&contry=stock" target="_blank">sh600356</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600356&contry=stock" target="_blank">恒丰纸业</a></td>
+        <td>0.31</td>
+        <td>0.34</td>
+        <td>0.39</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002521&contry=stock" target="_blank">sz002521</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002521&contry=stock" target="_blank">齐峰新材</a></td>
+        <td>0.59</td>
+        <td>0.33</td>
+        <td>0.39</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002117&contry=stock" target="_blank">sz002117</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002117&contry=stock" target="_blank">东港股份</a></td>
+        <td>0.59</td>
+        <td>0.69</td>
+        <td>0.89</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600076&contry=stock" target="_blank">sh600076</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600076&contry=stock" target="_blank">康欣新材</a></td>
+        <td>0.45</td>
+        <td>0.39</td>
+        <td>0.51</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002228&contry=stock" target="_blank">sz002228</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002228&contry=stock" target="_blank">合兴包装</a></td>
+        <td>0.32</td>
+        <td>0.10</td>
+        <td>0.13</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603898&contry=stock" target="_blank">sh603898</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603898&contry=stock" target="_blank">好莱客</a></td>
+        <td>0.58</td>
+        <td>0.76</td>
+        <td>1.07</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603818&contry=stock" target="_blank">sh603818</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603818&contry=stock" target="_blank">曲美家居</a></td>
+        <td>0.26</td>
+        <td>0.43</td>
+        <td>0.59</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600978&contry=stock" target="_blank">sh600978</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600978&contry=stock" target="_blank">宜华生活</a></td>
+        <td>0.42</td>
+        <td>0.52</td>
+        <td>0.67</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz000910&contry=stock" target="_blank">sz000910</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz000910&contry=stock" target="_blank">大亚科技</a></td>
+        <td>0.60</td>
+        <td>0.65</td>
+        <td>0.88</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600337&contry=stock" target="_blank">sh600337</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600337&contry=stock" target="_blank">美克家居</a></td>
+        <td>0.46</td>
+        <td>0.52</td>
+        <td>0.70</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002572&contry=stock" target="_blank">sz002572</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002572&contry=stock" target="_blank">索菲亚</a></td>
+        <td>1.04</td>
+        <td>1.50</td>
+        <td>2.08</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002522&contry=stock" target="_blank">sz002522</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002522&contry=stock" target="_blank">浙江众成</a></td>
+        <td>0.08</td>
+        <td>0.11</td>
+        <td>0.15</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600210&contry=stock" target="_blank">sh600210</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600210&contry=stock" target="_blank">紫江企业</a></td>
+        <td>0.07</td>
+        <td>0.15</td>
+        <td>0.17</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002565&contry=stock" target="_blank">sz002565</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002565&contry=stock" target="_blank">上海绿新</a></td>
+        <td>0.21</td>
+        <td>0.22</td>
+        <td>0.23</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002243&contry=stock" target="_blank">sz002243</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002243&contry=stock" target="_blank">通产丽星</a></td>
+        <td>0.02</td>
+        <td>0.09</td>
+        <td>0.19</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002303&contry=stock" target="_blank">sz002303</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002303&contry=stock" target="_blank">美盈森</a></td>
+        <td>0.15</td>
+        <td>0.23</td>
+        <td>0.27</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002511&contry=stock" target="_blank">sz002511</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002511&contry=stock" target="_blank">中顺洁柔</a></td>
+        <td>0.18</td>
+        <td>0.49</td>
+        <td>0.57</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=申万宏源集团股份有限公司">申万宏源集团股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=周海晨,屠亦婷,范张翔">周海晨,屠亦婷,范张翔</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3476703/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002062&contry=stock" target="_blank">sz002062</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002062&contry=stock" target="_blank">宏润建设</a></td>
+        <td>0.27</td>
+        <td>0.25</td>
+        <td>0.37</td>
+        <td>0.52</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603300&contry=stock" target="_blank">sh603300</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603300&contry=stock" target="_blank">华铁科技</a></td>
+        <td>0.39</td>
+        <td>0.24</td>
+        <td>0.27</td>
+        <td>0.31</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600477&contry=stock" target="_blank">sh600477</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600477&contry=stock" target="_blank">杭萧钢构</a></td>
+        <td>0.17</td>
+        <td>0.32</td>
+        <td>0.49</td>
+        <td>0.76</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002743&contry=stock" target="_blank">sz002743</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002743&contry=stock" target="_blank">富煌钢构</a></td>
+        <td>0.27</td>
+        <td>0.34</td>
+        <td>0.51</td>
+        <td>0.65</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002659&contry=stock" target="_blank">sz002659</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002659&contry=stock" target="_blank">中泰桥梁</a></td>
+        <td>0.01</td>
+        <td>0.11</td>
+        <td>0.25</td>
+        <td>0.40</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002593&contry=stock" target="_blank">sz002593</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002593&contry=stock" target="_blank">日上集团</a></td>
+        <td>0.15</td>
+        <td>0.13</td>
+        <td>0.21</td>
+        <td>0.25</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002323&contry=stock" target="_blank">sz002323</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002323&contry=stock" target="_blank">雅百特</a></td>
+        <td>1.40</td>
+        <td>0.54</td>
+        <td>0.64</td>
+        <td>0.75</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002775&contry=stock" target="_blank">sz002775</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002775&contry=stock" target="_blank">文科园林</a></td>
+        <td>0.92</td>
+        <td>0.56</td>
+        <td>0.75</td>
+        <td>0.93</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300495&contry=stock" target="_blank">sz300495</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300495&contry=stock" target="_blank">美尚生态</a></td>
+        <td>2.21</td>
+        <td>0.79</td>
+        <td>0.95</td>
+        <td>1.10</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002663&contry=stock" target="_blank">sz002663</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002663&contry=stock" target="_blank">普邦园林</a></td>
+        <td>0.12</td>
+        <td>0.19</td>
+        <td>0.24</td>
+        <td>0.29</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300197&contry=stock" target="_blank">sz300197</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300197&contry=stock" target="_blank">铁汉生态</a></td>
+        <td>0.39</td>
+        <td>0.60</td>
+        <td>0.89</td>
+        <td>1.15</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002717&contry=stock" target="_blank">sz002717</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002717&contry=stock" target="_blank">岭南园林</a></td>
+        <td>0.52</td>
+        <td>0.74</td>
+        <td>1.05</td>
+        <td>1.44</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300284&contry=stock" target="_blank">sz300284</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz300284&contry=stock" target="_blank">苏交科</a></td>
+        <td>0.58</td>
+        <td>0.73</td>
+        <td>0.97</td>
+        <td>1.17</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603018&contry=stock" target="_blank">sh603018</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh603018&contry=stock" target="_blank">中设集团</a></td>
+        <td>1.54</td>
+        <td>1.13</td>
+        <td>1.38</td>
+        <td>1.65</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600491&contry=stock" target="_blank">sh600491</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600491&contry=stock" target="_blank">龙元建设</a></td>
+        <td>0.22</td>
+        <td>0.27</td>
+        <td>0.37</td>
+        <td>0.50</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz000498&contry=stock" target="_blank">sz000498</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz000498&contry=stock" target="_blank">山东路桥</a></td>
+        <td>0.34</td>
+        <td>0.42</td>
+        <td>0.49</td>
+        <td>0.58</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600512&contry=stock" target="_blank">sh600512</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600512&contry=stock" target="_blank">腾达建设</a></td>
+        <td>-0.03</td>
+        <td>0.07</td>
+        <td>0.18</td>
+        <td>0.26</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600820&contry=stock" target="_blank">sh600820</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600820&contry=stock" target="_blank">隧道股份</a></td>
+        <td>0.47</td>
+        <td>0.55</td>
+        <td>0.66</td>
+        <td>0.81</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600502&contry=stock" target="_blank">sh600502</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600502&contry=stock" target="_blank">安徽水利</a></td>
+        <td>0.48</td>
+        <td>0.38</td>
+        <td>0.45</td>
+        <td>--</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002586&contry=stock" target="_blank">sz002586</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002586&contry=stock" target="_blank">围海股份</a></td>
+        <td>0.09</td>
+        <td>0.15</td>
+        <td>0.25</td>
+        <td>0.35</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002116&contry=stock" target="_blank">sz002116</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002116&contry=stock" target="_blank">中国海诚</a></td>
+        <td>0.56</td>
+        <td>0.60</td>
+        <td>0.73</td>
+        <td>0.87</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600970&contry=stock" target="_blank">sh600970</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh600970&contry=stock" target="_blank">中材国际</a></td>
+        <td>0.60</td>
+        <td>0.45</td>
+        <td>0.53</td>
+        <td>0.62</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz000065&contry=stock" target="_blank">sz000065</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz000065&contry=stock" target="_blank">北方国际</a></td>
+        <td>0.82</td>
+        <td>1.10</td>
+        <td>1.41</td>
+        <td>1.76</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
+                <tr>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002051&contry=stock" target="_blank">sz002051</a></td>
+        <td style="text-align:center"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002051&contry=stock" target="_blank">中工国际</a></td>
+        <td>1.36</td>
+        <td>1.35</td>
+        <td>1.60</td>
+        <td>1.86</td>
+        <td style="text-align:center">2016-10-17</td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?orgname=国泰君安证券股份有限公司">国泰君安证券股份有限公司</a></td>
+        <td style="text-align:center"><a href="/q/go.php/vPerformancePrediction/kind/eps/index.phtml?author=韩其成">韩其成</a></td>
+        <td><a href ="http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3477536/index.phtml" target="_blank">摘要</a></td>
+        </tr>
         
         </table></div><!--e-->
             <div class="pages">
-                  <a class="page" href="javascript:void(0)" onclick="set_page_num('323')">上一页</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('319')">319</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('320')">320</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('321')">321</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('322')">322</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('323')">323</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('324')">324</a>  <a class="page nolink" href="javascript:void(0)" >下一页</a>             </div>
+                  <a class="page" href="javascript:void(0)" onclick="set_page_num('125')">上一页</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('121')">121</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('122')">122</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('123')">123</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('124')">124</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('125')">125</a>  <a class="page nolink" href="javascript:void(0)" >126</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('127')">127</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('128')">128</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('129')">129</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('130')">130</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('131')">131</a>  <a class="page" href="javascript:void(0)" onclick="set_page_num('127')">下一页</a>             </div>
         </div>
         <div class="clear"></div>
     </div>
@@ -202,6 +921,8 @@
 </div>
 
 <script type="text/javascript">
+        var code_list = "";
+    var element_list = "";
     </script>
 
 <script type="text/javascript" src="http://www.sinaimg.cn/cj/stock/investment_rating_tail.js"></script>

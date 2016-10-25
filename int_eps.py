@@ -72,17 +72,17 @@ def int_eps_store(eps_data):
     c.execute('''CREATE TABLE IF NOT EXISTS int_eps(
             stk_num CHAR(20),
             stk_name CHAR(20),
-            eps_y14 float,
             eps_y15 float,
             eps_y16 float,
             eps_y17 float,
+            eps_y18 float,
             date CHAR(20),
             org_name CHAR(20),
             author CHAR(20),
             PRIMARY KEY (stk_num,date,org_name)
             )''')
     while len(eps_data) > 0:
-        c.execute('''REPLACE INTO int_eps (stk_num,stk_name,eps_y14,eps_y15,eps_y16,eps_y17,date,org_name,author) 
+        c.execute('''REPLACE INTO int_eps (stk_num,stk_name,eps_y15,eps_y16,eps_y17,eps_y18,date,org_name,author) 
         VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)''',
         (eps_data[0],eps_data[1],eps_data[2],eps_data[3],eps_data[4],eps_data[5],eps_data[6],eps_data[7],eps_data[8]))
         con.commit()
