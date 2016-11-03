@@ -87,18 +87,24 @@ def cal_co_er():
         high_net_margin_this_year = profit_last_year * (1+high_range)
         print high_net_margin_this_year
         #
-        #c.execute("SELECT stk_cpt from stk_cpt where stk_num =%s", (stk_num,))
-        #还没有stk_cpt表，有待添加
+        c.execute("SELECT stk_cpt from stk_cpt where stk_num =%s", (stk_num,))
+        #stk_cpt 单位是万股
+
+        try:
+            stk_cpt = c.fetchone()[0]
+            print c.fetchone()[0]
+            print type(c.fetchone()[0])
+            stk_cpt = float(stk_cpt) * 10000
+            low_eps_this_year = low_net_margin_this_year / stk_cpt
+            print low_eps_this_year
+            high_eps_this_year = high_net_margin_this_year / stk_cpt
+            print high_eps_this_year
+        except: 
+            print "no corresponding stock capital for %s" %stk_name
+            continue
         
-        #print cur.fetchone()[0]
-        #print type(cur.fetchone()[0])
-        #match = c.fetchone()
-        #if not match is None:
-        #    stk_cpt = match[0]
-        #    low_eps_this_year = low_net_margin_this_year / stk_cpt
-        #    high_eps_this_year = high_net_margin_this_year / stk_cpt
-        low_eps_this_year = "TBD"
-        high_eps_this_year = "TBD"
+        #low_eps_this_year = "TBD"
+        #high_eps_this_year = "TBD"
         #下面三个有待更改函数和添加需要引用的行业PE数据
         low_target_price = "TBD"
         high_target_price = "TBD"
