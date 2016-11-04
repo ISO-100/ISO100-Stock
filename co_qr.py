@@ -99,7 +99,8 @@ for link_num in range(1,20):
    
     #html = res.read()
     #soup= BeautifulSoup(html,from_encoding="gb18030")
-    soup= BeautifulSoup(html,from_encoding="gb2312")
+    #soup= BeautifulSoup(html,from_encoding="gb2312")
+    soup = BeautifulSoup(html,"html.parser",from_encoding="gb18030")
     #找到表格的根节点
     trs=soup.find("div",id="box")
     try:
