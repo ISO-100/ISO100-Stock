@@ -20,9 +20,12 @@ hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML,
        'Connection': 'keep-alive'}
 	   
 def stk_cpt_download(i):
-    result = dict()
+    result = ["0","N/A"]
     url = 'http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockStructure/stockid/'
     url = url + str(i) + '.phtml'
+    
+    #url = 'http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockStructure/stockid/031005.phtml'
+    
     print 'Assecing url %s' %str(url)
 
     url=urllib2.Request(url,headers=hdr)
@@ -33,7 +36,6 @@ def stk_cpt_download(i):
     file_stk=open('cpt_temp.txt')
 
     for line in file_stk:
-        cpt = 0
         cpt_temp = re.findall('TotalStock.*?<td>([0-9.]*)',line)
         if len(cpt_temp) >0:
             try:
@@ -43,18 +45,16 @@ def stk_cpt_download(i):
             except:
                 print 'Error:cpt is not a number'
             break
-        result[0] = cpt
         
     for line in file_stk:
-        date = "N/A"
         date_tmp = re.findall('<td width.*?>.*?</td><td>(.{10})',line)
         if len(date_tmp) > 0:
             date = date_tmp[0]
             result[1] = date
             print date
             break
-        result[1] = date
         
+    print result
     return result
 
 Config = ConfigParser.ConfigParser()
@@ -71,10 +71,11 @@ c.execute("SELECT stk_num,stk_name from stk_lst")
 
 for stk_num ,stk_name in c.fetchall():
     print stk_num, stk_name
-    if not (stk_num.startswith("6") or stk_num.startswith("0")): continue
+    #if not (stk_num.startswith("6") or stk_num.startswith("0")): continue
 
     result = stk_cpt_download(stk_num)
     stk_cpt = result[0]
+    print "stk_cpt",stk_cpt
     date = result[1]
     c.execute('''REPLACE INTO stk_cpt (
                 stk_num,stk_name,stk_cpt,date) 

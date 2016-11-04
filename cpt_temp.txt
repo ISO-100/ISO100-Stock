@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>三特索道(002159)股本结构_新浪财经_新浪网</title>
-<meta name="Keywords" content="三特索道股本结构,002159股本结构,新浪财经三特索道(002159)股本结构" />
-<meta name="Description" content="新浪财经三特索道(002159)行情中心,为您提供三特索道(002159)股本结构信息数据查询." />
+<title>凌云B股(900957)股本结构_新浪财经_新浪网</title>
+<meta name="Keywords" content="凌云B股股本结构,900957股本结构,新浪财经凌云B股(900957)股本结构" />
+<meta name="Description" content="新浪财经凌云B股(900957)行情中心,为您提供凌云B股(900957)股本结构信息数据查询." />
 <link media="all" rel="stylesheet" href="/corp/view/css/newstyle.css" />
 <link media="all" rel="stylesheet" href="/corp/view/css/tables.css" />
 <link media="all" rel="stylesheet" href="/corp/view/css/style4.css" />
@@ -49,12 +49,12 @@ a:hover{color:#f00;}
 <![endif]-->
 <script language="javascript" type="text/javascript">
 <!--//--><![CDATA[//><!--
-var fullcode="sz002159";
-var chart_img_alt = "三特索道 002159 行情图";
+var fullcode="sh900957";
+var chart_img_alt = "凌云B股 900957 行情图";
 
 /* comment */
 var cmnt_channel	= "gg";
-var cmnt_newsid		= "sz-002159";
+var cmnt_newsid		= "sh-900957";
 var cmnt_group		= 1;
 
 var detailcache = new Array();
@@ -63,11 +63,11 @@ var detailcache = new Array();
 <script type="text/javascript" src="/corp/view/js/all.js"></script>
 <script type="text/javascript" src="/corp/view/js/tables.js"></script>
 
-<script type="text/javascript" src="http://finance.sina.com.cn/realstock/company/sz002159/jsvar.js"></script>
+<script type="text/javascript" src="http://finance.sina.com.cn/realstock/company/sh900957/jsvar.js"></script>
 <script type="text/javascript" src="script/hangqing.js"></script>
  <script type="text/javascript" src="http://finance.sina.com.cn/iframe/hot_stock_list.js"></script>
 <script type="text/javascript" src="http://finance.sina.com.cn/realstock/company/hotstock_daily_a.js"></script>
-<script type="text/javascript" src="http://hq.sinajs.cn/list=sz002159,s_sh000001,s_sh000300,s_sz399001,s_sz399106,s_sz395099"></script>
+<script type="text/javascript" src="http://hq.sinajs.cn/list=sh900957,s_sh000001,s_sh000300,s_sz399001,s_sz399106,s_sz395099"></script>
 <script type="text/javascript" src="http://image2.sina.com.cn/home/sinaflash.js"></script>
 
 <script type="text/javascript" src="/corp/view/js/corp_fenshi.js"></script>
@@ -452,20 +452,20 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item1" style="display:block; height:88px; overflow:hidden; *height:87px;">
               <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpInfo/stockid/002159.phtml" target="_self">公司简介</a></td>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockStructure/stockid/002159.phtml" target="_self">股本结构</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpInfo/stockid/900957.phtml" target="_self">公司简介</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockStructure/stockid/900957.phtml" target="_self">股本结构</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockHolder/stockid/002159/displaytype/30.phtml" target="_self">主要股东</a></td>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CirculateStockHolder/stockid/002159/displaytype/30.phtml" target="_self">流通股东</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockHolder/stockid/900957/displaytype/30.phtml" target="_self">主要股东</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CirculateStockHolder/stockid/900957/displaytype/30.phtml" target="_self">流通股东</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_FundStockHolder/stockid/002159/displaytype/30.phtml" target="_self">基金持股</a></td>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpManager/stockid/002159.phtml" target="_self">公司高管</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_FundStockHolder/stockid/900957/displaytype/30.phtml" target="_self">基金持股</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpManager/stockid/900957.phtml" target="_self">公司高管</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpRule/stockid/002159.phtml" target="_self">公司章程</a></td>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/002159.phtml" target="_self">相关资料</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpRule/stockid/900957.phtml" target="_self">公司章程</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/900957.phtml" target="_self">相关资料</a></td>
           </tr>
         </table>
       </div>
@@ -475,12 +475,12 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item2" style="display:block;">
       <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sz002159/zjld.shtml" target="_self">资金流向</a></td>
-            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sz002159/ggtj.shtml" target="_self">个股体检</a></td>
+            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sh900957/zjld.shtml" target="_self">资金流向</a></td>
+            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sh900957/ggtj.shtml" target="_self">个股体检</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sz002159/fxpj.shtml" target="_self">风险评价</a></td>
-<!--            <td>&nbsp;<a href="http://finance.sina.com.cn/stock/message/sogusina/sogu002159.htm" target="_self">价值估值</a></td> -->
+            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sh900957/fxpj.shtml" target="_self">风险评价</a></td>
+<!--            <td>&nbsp;<a href="http://finance.sina.com.cn/stock/message/sogusina/sogu900957.htm" target="_self">价值估值</a></td> -->
           </tr>
         </table>
       </div>
@@ -491,22 +491,22 @@ var detailcache = new Array();
 
         <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sz002159/nc.shtml" target="_self">分时走势</a></td>
+            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/company/sh900957/nc.shtml" target="_self">分时走势</a></td>
             <td>&nbsp;<a href="http://biz.finance.sina.com.cn/hq/" target="_self">行情中心</a></td>
           </tr>
 
           <tr>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/cn_bill.php?symbol=sz002159" target="_self">大单追踪</a></td>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/vMS_tradedetail.php?symbol=sz002159" target="_self">成交明细</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/cn_bill.php?symbol=sh900957" target="_self">大单追踪</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/vMS_tradedetail.php?symbol=sh900957" target="_self">成交明细</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/cn_price.php?symbol=sz002159" target="_self">分价图表</a></td>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/cn_price_history.php?symbol=sz002159" target="_self">持仓分析</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/cn_price.php?symbol=sh900957" target="_self">分价图表</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/cn_price_history.php?symbol=sh900957" target="_self">持仓分析</a></td>
           </tr>
 
           <tr>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vMS_MarketHistory/stockid/002159.phtml" target="_self">历史交易</a></td>
-            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vMS_FuQuanMarketHistory/stockid/002159.phtml" target="_self">复权交易</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vMS_MarketHistory/stockid/900957.phtml" target="_self">历史交易</a></td>
+            <td>&nbsp;<a href="http://vip.stock.finance.sina.com.cn/corp/go.php/vMS_FuQuanMarketHistory/stockid/900957.phtml" target="_self">复权交易</a></td>
           </tr>
           <tr>
             <td colspan="2">&nbsp;<a href="#" onclick="S_Finance.upconstants._changepic('fq_daily');">复权行情</a></td>
@@ -624,19 +624,19 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item5" style="display:block;">
         <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_ShareBonus/stockid/002159.phtml" target="_self">分红配股</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_NewStock/stockid/002159.phtml" target="_self">新股发行</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_ShareBonus/stockid/900957.phtml" target="_self">分红配股</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_NewStock/stockid/900957.phtml" target="_self">新股发行</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_AddStock/stockid/002159.phtml" target="_self">增发情况</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_TransferableBond/stockid/002159.phtml" target="_self">发可转债</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_AddStock/stockid/900957.phtml" target="_self">增发情况</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_TransferableBond/stockid/900957.phtml" target="_self">发可转债</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_CollectFund/stockid/002159.phtml" target="_self">募资投向</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_RaiseExplanation/stockid/002159.phtml" target="_self">招股说明</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_CollectFund/stockid/900957.phtml" target="_self">募资投向</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_RaiseExplanation/stockid/900957.phtml" target="_self">招股说明</a></td>
           </tr>
           <tr>
-            <td colspan="2">&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_MarketBulletin/stockid/002159.phtml" target="_self">上市公告</a></td>
+            <td colspan="2">&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vISSUE_MarketBulletin/stockid/900957.phtml" target="_self">上市公告</a></td>
           </tr>
         </table>
       </div>
@@ -646,25 +646,25 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item6" style="display:block;">
         <table cellspacing="0">
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FinanceSummary/stockid/002159/displaytype/4.phtml">财务摘要表</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FinanceSummary/stockid/900957/displaytype/4.phtml">财务摘要表</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/002159/ctrl/part/displaytype/4.phtml">资产负债表</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/900957/ctrl/part/displaytype/4.phtml">资产负债表</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002159/ctrl/part/displaytype/4.phtml">公司利润表</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/900957/ctrl/part/displaytype/4.phtml">公司利润表</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet_Text/stockid/002159/type/1070.phtml">利润表附注</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet_Text/stockid/900957/type/1070.phtml">利润表附注</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002159/ctrl/part/displaytype/4.phtml">现金流量表</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/900957/ctrl/part/displaytype/4.phtml">现金流量表</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet_Text/stockid/002159/type/1079.phtml">现金流量表附注</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet_Text/stockid/900957/type/1079.phtml">现金流量表附注</a></td>
           </tr>
            <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet_Text/stockid/002159/type/1040.phtml">资产负债表附注</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet_Text/stockid/900957/type/1040.phtml">资产负债表附注</a></td>
           </tr>
         </table>
       </div>
@@ -674,26 +674,26 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item7" style="display:block;">
        	<table cellspacing="0">
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FootNotes/stockid/002159.phtml">财务附注</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FootNotes/stockid/900957.phtml">财务附注</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_AchievementNotice/stockid/002159.phtml">业绩预告</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_AchievementNotice/stockid/900957.phtml">业绩预告</a></td>
           </tr>
 
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BadAccount/stockid/002159/displaytype/4.phtml">坏帐准备</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BadAccount/stockid/900957/displaytype/4.phtml">坏帐准备</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FootNotes_Text/stockid/002159.phtml">文字附注</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FootNotes_Text/stockid/900957.phtml">文字附注</a></td>
           </tr>
           <tr>
-          <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_PayTax/stockid/002159/displaytype/4.phtml">应交增值税款</a></td>
+          <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_PayTax/stockid/900957/displaytype/4.phtml">应交增值税款</a></td>
           </tr>
            <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BenifitChange/stockid/002159/displaytype/4.phtml">股东权益增减</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_BenifitChange/stockid/900957/displaytype/4.phtml">股东权益增减</a></td>
           </tr>
           <tr>
-                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_AssetDevalue/stockid/002159/displaytype/4.phtml">资产减值准备</a></td>
+                <td colspan="2">&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_AssetDevalue/stockid/900957/displaytype/4.phtml">资产减值准备</a></td>
           </tr>
         </table>
       </div>
@@ -704,8 +704,8 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item8" style="display:none;">
         <table cellspacing="0">
           <tr>
-              <td>&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FinancialGuideLine/stockid/002159/displaytype/4.phtml">财务指标</a></td>
-              <td>&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_DupontAnalysis/stockid/002159/displaytype/10.phtml">杜邦分析</a></td>
+              <td>&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_FinancialGuideLine/stockid/900957/displaytype/4.phtml">财务指标</a></td>
+              <td>&nbsp;<a target="_self" href="http://money.finance.sina.com.cn/corp/go.php/vFD_DupontAnalysis/stockid/900957/displaytype/10.phtml">杜邦分析</a></td>
           </tr>
         </table>
       </div>
@@ -715,16 +715,16 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item9" style="display:none;">
         <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/002159/menu_num/2.phtml" target="_self">所属行业</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/002159/menu_num/3.phtml" target="_self">所属指数</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/900957/menu_num/2.phtml" target="_self">所属行业</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/900957/menu_num/3.phtml" target="_self">所属指数</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/002159/menu_num/1.phtml" target="_self">相关证券</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/002159/menu_num/0.phtml" target="_self">基本资料</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/900957/menu_num/1.phtml" target="_self">相关证券</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/900957/menu_num/0.phtml" target="_self">基本资料</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/002159/menu_num/4.phtml" target="_self">所属系别</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/002159/menu_num/5.phtml" target="_self">所属板块</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/900957/menu_num/4.phtml" target="_self">所属系别</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCI_CorpOtherInfo/stockid/900957/menu_num/5.phtml" target="_self">所属板块</a></td>
           </tr>
         </table>
       </div>
@@ -734,15 +734,15 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item10" style="display:block;">
         <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002159.phtml" target="_self">公司公告</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_Bulletin.php?stockid=002159&type=list&page_type=ndbg" target="_self">年度报告</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/900957.phtml" target="_self">公司公告</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_Bulletin.php?stockid=900957&type=list&page_type=ndbg" target="_self">年度报告</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_BulletinZhong.php?stockid=002159&type=list&page_type=zqbg" target="_self">中期报告</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_BulletinYi.php?stockid=002159&type=list&page_type=yjdbg" target="_self">第一季度</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_BulletinZhong.php?stockid=900957&type=list&page_type=zqbg" target="_self">中期报告</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_BulletinYi.php?stockid=900957&type=list&page_type=yjdbg" target="_self">第一季度</a></td>
           </tr>
           <tr>
-            <td colspan="2">&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_BulletinSan.php?stockid=002159&type=list&page_type=sjdbg" target="_self">第三季度</a></td>
+            <td colspan="2">&nbsp;<a href="http://money.finance.sina.com.cn/corp/view/vCB_BulletinSan.php?stockid=900957&type=list&page_type=sjdbg" target="_self">第三季度</a></td>
           </tr>
         </table>
       </div>
@@ -752,16 +752,16 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item11" style="display:none;">
         <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_HoldingCompany/stockid/002159.phtml" target="_self">控股参股</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_ShareStockbroker/stockid/002159.phtml" target="_self">参股券商</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_HoldingCompany/stockid/900957.phtml" target="_self">控股参股</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_ShareStockbroker/stockid/900957.phtml" target="_self">参股券商</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalTrusteeship/stockid/002159.phtml" target="_self">资产托管</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalReplacement/stockid/002159.phtml" target="_self">资产置换</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalTrusteeship/stockid/900957.phtml" target="_self">资产托管</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalReplacement/stockid/900957.phtml" target="_self">资产置换</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalTrade/stockid/002159.phtml" target="_self">资产交易</a></td>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalStrip/stockid/002159.phtml" target="_self">资产剥离</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalTrade/stockid/900957.phtml" target="_self">资产交易</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vCO_CapitalStrip/stockid/900957.phtml" target="_self">资产剥离</a></td>
           </tr>
         </table>
       </div>
@@ -772,19 +772,19 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item12" style="display:none;">
         <table cellspacing="0">
           <tr>
-            <td colspan="2">&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_StockHolderMeeting/stockid/002159.phtml" target="_self">股东大会</a></td>
+            <td colspan="2">&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_StockHolderMeeting/stockid/900957.phtml" target="_self">股东大会</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_RelatedTrade/stockid/002159.phtml" target="_self">关联交易</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_RelatedTrade/stockid/900957.phtml" target="_self">关联交易</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_GetOutOfLine/stockid/002159.phtml" target="_self">违规记录</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_GetOutOfLine/stockid/900957.phtml" target="_self">违规记录</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_Lawsuit/stockid/002159.phtml" target="_self">诉讼仲裁</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_Lawsuit/stockid/900957.phtml" target="_self">诉讼仲裁</a></td>
           </tr>
           <tr>
-            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_Assurance/stockid/002159.phtml" target="_self">对外担保</a></td>
+            <td>&nbsp;<a href="http://money.finance.sina.com.cn/corp/go.php/vGP_Assurance/stockid/900957.phtml" target="_self">对外担保</a></td>
           </tr>
         </table>
       </div>
@@ -804,7 +804,7 @@ var detailcache = new Array();
       <div class="Menu-Con" id="item14" style="display:none;">
         <table cellspacing="0">
           <tr>
-            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/sh/002159_notice.shtml" target="_self">相关资讯</a></td>
+            <td>&nbsp;<a href="http://finance.sina.com.cn/realstock/sh/900957_notice.shtml" target="_self">相关资讯</a></td>
           </tr>
         </table>
       </div>
@@ -815,7 +815,7 @@ var detailcache = new Array();
         <table cellspacing="0">
           <tr>
             <td>&nbsp;<a href="http://biz.finance.sina.com.cn/smart/cwzb.php" target="_self">智能选股</a></td>
-            <td>&nbsp;<a href="http://biz.finance.sina.com.cn/company/compare/compare.php?stock_code=002159" target="_self">财务对比</a></td>
+            <td>&nbsp;<a href="http://biz.finance.sina.com.cn/company/compare/compare.php?stock_code=900957" target="_self">财务对比</a></td>
           </tr>
           <tr>
             <td colspan="2">&nbsp;<a href="http://biz.finance.sina.com.cn/browser/first.php" target="_self">数据浏览</a></td>
@@ -848,8 +848,8 @@ var detailcache = new Array();
         <div class="toolbartop" id="toolbar">
 
           <div class="tbtb01">
-            <h1><a href="http://finance.sina.com.cn/realstock/company/sz002159/nc.shtml" target="_self">三特索道</a></h1>
-            <h2><span id="itemMarket">-</span> 002159</h2>
+            <h1><a href="http://finance.sina.com.cn/realstock/company/sh900957/nc.shtml" target="_self">凌云B股</a></h1>
+            <h2><span id="itemMarket">-</span> 900957</h2>
 
           </div>
           <div class="tbtb02">
@@ -896,8 +896,8 @@ var detailcache = new Array();
 <div class="nav_menu" style="clear:both;">
 <ul class="Ti">
     <li class="menu0">公司资料：</li>
-        <!--<li class="menu02Off" id="m02-8"><a href="/corp/go.php/vCI_CorpProduct/stockid/002159.phtml">公司产品</a></li>-->
-    <li class="menu02Off" id="m02-9"><a href="/corp/go.php/vCI_CorpOtherInfo/stockid/002159.phtml">相关资料</a></li>
+        <!--<li class="menu02Off" id="m02-8"><a href="/corp/go.php/vCI_CorpProduct/stockid/900957.phtml">公司产品</a></li>-->
+    <li class="menu02Off" id="m02-9"><a href="/corp/go.php/vCI_CorpOtherInfo/stockid/900957.phtml">相关资料</a></li>
     
     <li class="caplink">
       <button>刷新</button>
@@ -915,165 +915,49 @@ var detailcache = new Array();
 	<table id="StockStructureNewTable0" width="100%">
 		<thead>
 			<tr>
-				<th colspan="6">三特索道(002159) - 股本结构</th>
+				<th colspan="6">凌云B股(900957) - 股本结构</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr><td width='150'>·变动日期</td><td>2015-11-05</td><td>2015-11-04</td><td>2014-11-05</td><td>2014-10-20</td><td>2014-06-30</td></tr><tr><td width='150'>·公告日期</td><td>2015-11-04</td><td>2015-11-04</td><td>2014-11-03</td><td>2014-11-03</td><td>2014-08-20</td></tr><tr><td width='150'>·股本结构图</td><td><div align="center" class="text">
+			<tr><td width='150'>·变动日期</td><td>2003-07-30</td><td>2000-08-05</td><td>2000-07-28</td><td>2000-07-06</td></tr><tr><td width='150'>·公告日期</td><td></td><td></td><td></td><td></td></tr><tr><td width='150'>·股本结构图</td><td><div align="center" class="text">
 							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='13399.9999' name='流通A股' color='0099FF'/><set value='466.6667' name='限售A股' color='AAAAAA'/></graph>">
+							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='18400' name='流通B股' color='92DB87'/><set value='16500' name='境内法人股' color='006F00' /></graph>">
 							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
 							<PARAM NAME=quality VALUE=high>
 							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='13399.9999' name='流通A股' color='0099FF'/><set value='466.6667' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='18400' name='流通B股' color='92DB87'/><set value='16500' name='境内法人股' color='006F00' /></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
 							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2015-11-05.phtml'>点击查看明细</a></td><td><div align="center" class="text">
+						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/900957/alertdate/2003-07-30.phtml'>点击查看明细</a></td><td><div align="center" class="text">
 							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/><set value='1866.6666' name='限售A股' color='AAAAAA'/></graph>">
+							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='18400' name='流通B股' color='92DB87'/><set value='8467' name='国有法人股' color='FF0000'/><set value='16500' name='境内法人股' color='006F00' /></graph>">
 							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
 							<PARAM NAME=quality VALUE=high>
 							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/><set value='1866.6666' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='18400' name='流通B股' color='92DB87'/><set value='8467' name='国有法人股' color='FF0000'/><set value='16500' name='境内法人股' color='006F00' /></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
 							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2015-11-04.phtml'>点击查看明细</a></td><td><div align="center" class="text">
+						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/900957/alertdate/2000-08-05.phtml'>点击查看明细</a></td><td><div align="center" class="text">
 							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/><set value='1866.6666' name='限售A股' color='AAAAAA'/></graph>">
+							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='16000' name='流通B股' color='92DB87'/><set value='8467' name='国有法人股' color='FF0000'/><set value='16500' name='境内法人股' color='006F00' /></graph>">
 							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
 							<PARAM NAME=quality VALUE=high>
 							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/><set value='1866.6666' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='16000' name='流通B股' color='92DB87'/><set value='8467' name='国有法人股' color='FF0000'/><set value='16500' name='境内法人股' color='006F00' /></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
 							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2014-11-05.phtml'>点击查看明细</a></td><td><div align="center" class="text">
+						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/900957/alertdate/2000-07-28.phtml'>点击查看明细</a></td><td><div align="center" class="text">
 							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>">
+							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='8467' name='国有法人股' color='FF0000'/><set value='16500' name='境内法人股' color='006F00' /></graph>">
 							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
 							<PARAM NAME=quality VALUE=high>
 							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='8467' name='国有法人股' color='FF0000'/><set value='16500' name='境内法人股' color='006F00' /></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
 							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2014-10-20.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2014-06-30.phtml'>点击查看明细</a></td></tr><tr><td width='150'>·变动原因</td><td>其它上市</td><td>股份性质变动</td><td>增发</td><td>股份性质变动</td><td>定期报告</td></tr><tr><td width='150'>·总股本<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/TotalStock.phtml'>(历史记录)</a></td><td>13866.667万股</td><td>13866.667万股</td><td>13866.667万股</td><td>12000万股</td><td>12000万股</td></tr><tr><td width='150'>&nbsp;&nbsp;流通股</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通A股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/LiuTongA.phtml'>(历史记录)</a></td><td>13388.264万股</td><td>11988.265万股</td><td>11987.514万股</td><td>11987.514万股</td><td>11986.764万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;高管股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/GaoGuan.phtml'>(历史记录)</a></td><td>11.736万股</td><td>11.736万股</td><td>12.486万股</td><td>12.486万股</td><td>13.237万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售A股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/XianShouA.phtml'>(历史记录)</a></td><td>466.667万股</td><td>1866.667万股</td><td>1866.667万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通B股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售B股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通H股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国家股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国有法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;境内法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;境内发起人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;募集法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;战略投资者持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基金持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;转配股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;内部职工股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;优先股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr>		</tbody>
-	</table>
-	  
-  
-
-  <!--股本结构begin-->
-  	<!--2007年度股本结构-->	
-	<table id="StockStructureNewTable1" width="100%">
-		<thead>
-			<tr>
-				<th colspan="6">三特索道(002159) - 股本结构</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr><td width='150'>·变动日期</td><td>2011-12-31</td><td>2010-12-31</td><td>2010-08-17</td><td>2010-08-13</td><td>2009-12-31</td></tr><tr><td width='150'>·公告日期</td><td>2012-03-22</td><td>2011-03-31</td><td>2010-08-13</td><td>2010-08-13</td><td>2010-02-10</td></tr><tr><td width='150'>·股本结构图</td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2011-12-31.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2010-12-31.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='12000' name='流通A股' color='0099FF'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2010-08-17.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='7626.6' name='流通A股' color='0099FF'/><set value='4373.4' name='限售A股' color='AAAAAA'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='7626.6' name='流通A股' color='0099FF'/><set value='4373.4' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2010-08-13.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='7626.6' name='流通A股' color='0099FF'/><set value='4373.4' name='限售A股' color='AAAAAA'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='7626.6' name='流通A股' color='0099FF'/><set value='4373.4' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2009-12-31.phtml'>点击查看明细</a></td></tr><tr><td width='150'>·变动原因</td><td>定期报告</td><td>定期报告</td><td>其它上市</td><td>股份性质变动</td><td>定期报告</td></tr><tr><td width='150'>·总股本<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/TotalStock.phtml'>(历史记录)</a></td><td>12000万股</td><td>12000万股</td><td>12000万股</td><td>12000万股</td><td>12000万股</td></tr><tr><td width='150'>&nbsp;&nbsp;流通股</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通A股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/LiuTongA.phtml'>(历史记录)</a></td><td>11987.139万股</td><td>11986.842万股</td><td>11986.546万股</td><td>7613.146万股</td><td>7613.294万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;高管股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/GaoGuan.phtml'>(历史记录)</a></td><td>12.861万股</td><td>13.158万股</td><td>13.454万股</td><td>13.454万股</td><td>13.306万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售A股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/XianShouA.phtml'>(历史记录)</a></td><td>0万股</td><td>0万股</td><td>0万股</td><td>4373.4万股</td><td>4373.4万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通B股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售B股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通H股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国家股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国有法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;境内法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;境内发起人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;募集法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;战略投资者持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基金持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;转配股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;内部职工股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;优先股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr>		</tbody>
-	</table>
-	  
-  
-
-  <!--股本结构begin-->
-  	<!--2007年度股本结构-->	
-	<table id="StockStructureNewTable2" width="100%">
-		<thead>
-			<tr>
-				<th colspan="6">三特索道(002159) - 股本结构</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr><td width='150'>·变动日期</td><td>2008-08-18</td><td>2008-05-16</td><td>2007-11-19</td><td>2007-08-17</td><td>2007-07-26</td></tr><tr><td width='150'>·公告日期</td><td>2008-08-16</td><td>2008-05-10</td><td>2007-11-13</td><td>2007-08-16</td><td>2007-07-26</td></tr><tr><td width='150'>·股本结构图</td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='7626.6' name='流通A股' color='0099FF'/><set value='4373.4' name='限售A股' color='AAAAAA'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='7626.6' name='流通A股' color='0099FF'/><set value='4373.4' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2008-08-18.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='4500' name='流通A股' color='0099FF'/><set value='7500' name='限售A股' color='AAAAAA'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='4500' name='流通A股' color='0099FF'/><set value='7500' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2008-05-16.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='3006.7619' name='流通A股' color='0099FF'/><set value='4993.2381' name='限售A股' color='AAAAAA'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='3006.7619' name='流通A股' color='0099FF'/><set value='4993.2381' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2007-11-19.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='2700' name='流通A股' color='0099FF'/><set value='5300' name='限售A股' color='AAAAAA'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='2700' name='流通A股' color='0099FF'/><set value='5300' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2007-08-17.phtml'>点击查看明细</a></td><td><div align="center" class="text">
-							<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="60" id="FusionCharts" ALIGN="">
-							<PARAM NAME="FlashVars" value="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='5000' name='限售A股' color='AAAAAA'/></graph>">
-							<PARAM NAME=movie VALUE="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60">
-							<PARAM NAME=quality VALUE=high>
-							<PARAM NAME=bgcolor VALUE=#FFFFFF>
-							<EMBED src="/corp/view/Chart/FC_2_3_Pie3D.swf?chartWidth=100&chartHeight=60" FlashVars="&dataXML=<graph caption='' bgColor='ffffff' decimalPrecision='1' showPercentageValues='0' showNames='0' numberPrefix='￥' showValues='0' showPercentageInLabel='1' pieYScale='55' pieBorderAlpha='40' pieFillAlpha='70' pieSliceDepth='12' pieRadius='30' baseFontSize='12'><set value='5000' name='限售A股' color='AAAAAA'/></graph>" quality=high bgcolor=#FFFFFF WIDTH="100" HEIGHT="60" NAME="FusionCharts" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
-							</OBJECT>
-						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/002159/alertdate/2007-07-26.phtml'>点击查看明细</a></td></tr><tr><td width='150'>·变动原因</td><td>其它上市</td><td>送、转股</td><td>其它上市</td><td>IPO</td><td>发行前股本</td></tr><tr><td width='150'>·总股本<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/TotalStock.phtml'>(历史记录)</a></td><td>12000万股</td><td>12000万股</td><td>8000万股</td><td>8000万股</td><td>5000万股</td></tr><tr><td width='150'>&nbsp;&nbsp;流通股</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通A股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/LiuTongA.phtml'>(历史记录)</a></td><td>7613.519万股</td><td>4492.701万股</td><td>2995.134万股</td><td>2700万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;高管股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/GaoGuan.phtml'>(历史记录)</a></td><td>13.081万股</td><td>7.299万股</td><td>11.628万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售A股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/002159/stocktype/XianShouA.phtml'>(历史记录)</a></td><td>4373.4万股</td><td>7500万股</td><td>4993.238万股</td><td>5300万股</td><td>5000万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通B股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售B股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通H股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国家股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国有法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;境内法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;境内发起人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;募集法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;战略投资者持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基金持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;转配股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;内部职工股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;优先股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr>		</tbody>
+						  </div><a target='_blank' href='/corp/go.php/vCI_StockStructurePicture/stockid/900957/alertdate/2000-07-06.phtml'>点击查看明细</a></td></tr><tr><td width='150'>·变动原因</td><td>股份性质变动</td><td>超额配售</td><td>IPO</td><td>发行前股本</td></tr><tr><td width='150'>·总股本<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/900957/stocktype/TotalStock.phtml'>(历史记录)</a></td><td>34900万股</td><td>34900万股</td><td>32500万股</td><td>16500万股</td></tr><tr><td width='150'>&nbsp;&nbsp;流通股</td><td></td><td></td><td></td><td></td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通A股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;高管股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售A股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通B股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/900957/stocktype/LiuTongB.phtml'>(历史记录)</a></td><td>18400万股</td><td>18400万股</td><td>16000万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;限售B股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;流通H股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国家股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;国有法人股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/900957/stocktype/GuoYouFaRen.phtml'>(历史记录)</a></td><td>0万股</td><td>8467万股</td><td>8467万股</td><td>8467万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;境内法人股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/900957/stocktype/JingNeiFaRen.phtml'>(历史记录)</a></td><td>16500万股</td><td>16500万股</td><td>16500万股</td><td>16500万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;境内发起人股<a target='_blank' href='/corp/go.php/vCI_StockStructureHistory/stockid/900957/stocktype/JingNeiFaQiRen.phtml'>(历史记录)</a></td><td>16500万股</td><td>16500万股</td><td>16500万股</td><td>16500万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;募集法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般法人股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;战略投资者持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基金持股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;转配股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;内部职工股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr><tr><td width='150'>&nbsp;&nbsp;&nbsp;&nbsp;优先股</td><td>0万股</td><td>0万股</td><td>0万股</td><td>0万股</td></tr>		</tbody>
 	</table>
 		<br>
     
 	<div class="divback">↑<a href="#">返回页顶</a>↑</div>
 	<script language="javascript" type="text/javascript">
-		romanceTables(['StockStructureNewTable0','StockStructureNewTable1','StockStructureNewTable2']);
+		romanceTables(['StockStructureNewTable0']);
 	</script>
   <!--股本结构end-->
   </div>

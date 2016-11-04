@@ -24,10 +24,10 @@ def cal_co_er():
             mid_value float(10,2),
             difference BOOLEAN,
             alert BOOLEAN,
-            profit_last_year float(10,2),
+            profit_last_year float(20,2),
             eps_last_year float(10,2),
-            low_net_margin_this_year float(10,2),
-            high_net_margin_this_year float(10,2),
+            low_net_margin_this_year float(20,2),
+            high_net_margin_this_year float(20,2),
             low_eps_this_year float(10,2),
             high_eps_this_year float(10,2),
             low_target_price float(10,2),
@@ -63,57 +63,68 @@ def cal_co_er():
         else:
             #例子：20%~30%
             index = change_range.find('~')
-            print index
+            #print index
             low_range = float(change_range[:index-1]) / 100
-            print low_range
+            print "low_range", low_range
             high_range = float(change_range[index+1:-1]) / 100
-            print high_range
+            print "high_range", high_range
             mid_value = (low_range + high_range) / 2
-            print mid_value
+            print "mid_value", mid_value
             
         difference = "TBD"
         alert = "TBD"
         last_year = date.today().year - 1
         quarter = str(last_year) + "-4Q"
         c.execute("SELECT net_profit from co_qr where stk_num =%s and QUARTER = %s", (stk_num,quarter,))
-        try:profit_last_year = c.fetchone()[0]
+        try:
+            profit_last_year = c.fetchone()[0]
+            profit_last_year = float(profit_last_year)
+            # The unit is 10000 RMB
+            print "profit_last_year", profit_last_year
         except: 
+            profit_last_year = 0
             print "no corresponding QR for %s" %stk_name
             continue
         c.execute("SELECT EPS from co_qr where stk_num =%s and QUARTER = %s", (stk_num,quarter,))
         eps_last_year = c.fetchone()[0]   
         low_net_margin_this_year = profit_last_year * (1+low_range)
-        print low_net_margin_this_year
+        print "low_net_margin_this_year", low_net_margin_this_year
         high_net_margin_this_year = profit_last_year * (1+high_range)
-        print high_net_margin_this_year
+        print "high_net_margin_this_year", high_net_margin_this_year
         #
         c.execute("SELECT stk_cpt from stk_cpt where stk_num =%s", (stk_num,))
-        #stk_cpt 单位是万股
-
+        
         try:
             stk_cpt = c.fetchone()[0]
-            print c.fetchone()[0]
-            print type(c.fetchone()[0])
-            stk_cpt = float(stk_cpt) * 10000
+            stk_cpt = float(stk_cpt)
+            print "stk_cpt", stk_cpt
             low_eps_this_year = low_net_margin_this_year / stk_cpt
-            print low_eps_this_year
+            print "low_eps_this_year", low_eps_this_year
             high_eps_this_year = high_net_margin_this_year / stk_cpt
-            print high_eps_this_year
+            print "high_eps_this_year", high_eps_this_year
         except: 
-            print "no corresponding stock capital for %s" %stk_name
+            stk_cpt = "N/A"
+            low_eps_this_year = "N/A"
+            high_eps_this_year = "N/A"
+            print "no corresponding stock capital for %s \n" %stk_name
             continue
         
         #low_eps_this_year = "TBD"
         #high_eps_this_year = "TBD"
         #下面三个有待更改函数和添加需要引用的行业PE数据
+        
         low_target_price = "TBD"
         high_target_price = "TBD"
         target_price_range = "TBD"
+        
+        print "profit_last_year", profit_last_year
         c.execute('''REPLACE INTO cal_co_er (
                     stk_num, stk_name,low_range,high_range,mid_value,difference,alert,profit_last_year,eps_last_year,low_net_margin_this_year ,high_net_margin_this_year,low_eps_this_year,high_eps_this_year,low_target_price,high_target_price,target_price_range)
                     VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''',
                     (stk_num, stk_name,low_range,high_range,mid_value,difference,alert,profit_last_year,eps_last_year,low_net_margin_this_year ,high_net_margin_this_year,low_eps_this_year,high_eps_this_year,low_target_price,high_target_price,target_price_range))
         con.commit()
+        print "\n"
+        
     c.close()
     
 def main():

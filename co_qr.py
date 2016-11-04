@@ -114,6 +114,10 @@ for link_num in range(1,20):
     for x in range(1,rows-3):
         #print root.contents[x].contents[0].string
         stk_num = root.contents[x].contents[0].string
+        
+        #Reformat the stock num from somthing like "1" to "000001"
+        stk_num = stk_num.zfill(6)
+        
         print stk_num
         stk_name = root.contents[x].contents[1].string
         #
