@@ -24,7 +24,7 @@ Config = ConfigParser.ConfigParser()
 Config.read("settings.ini")
 con = MySQLdb.connect( Config.get('mysql', 'host'), Config.get('mysql', 'username'), Config.get('mysql', 'password'), Config.get('mysql', 'DB'), charset="utf8" )
 c = con.cursor()
-c.execute("DROP TABLE IF EXISTS cal_co_qr")
+#c.execute("DROP TABLE IF EXISTS cal_co_qr")
 
 #e.g.
 #R_2014_1Q: 季报营收
