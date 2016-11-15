@@ -32,7 +32,7 @@ def cal_co_er():
             high_eps_this_year float(10,2),
             low_target_price float(10,2),
             high_target_price float(10,2),
-            target_price_range float(10,2)
+            target_price_range CHAR(20)
             )''')
     
     stock = dict()
@@ -109,13 +109,14 @@ def cal_co_er():
             print "no corresponding stock capital for %s \n" %stk_name
             continue
         
-        #low_eps_this_year = "TBD"
-        #high_eps_this_year = "TBD"
-        #下面三个有待更改函数和添加需要引用的行业PE数据
+        #Suppose PEG = 1, Price = PEG * EPS
+        low_target_price = low_eps_this_year
+        high_target_price = high_eps_this_year
+        target_price_range = "%.2f ~ %.2f" % (low_target_price,high_target_price)
         
-        low_target_price = "TBD"
-        high_target_price = "TBD"
-        target_price_range = "TBD"
+        print "low_target_price", low_target_price
+        print "high_target_price", high_target_price
+        print "target_price_range", target_price_range
         
         print "profit_last_year", profit_last_year
         c.execute('''REPLACE INTO cal_co_er (

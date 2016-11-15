@@ -180,22 +180,20 @@ for stk_lst in c.fetchall():
         current_prc = temp[0][0]
     else:
         current_prc = "N/A"
-
-#'stk_idt' table unavailable 
-    '''
+    
+    
     c_temp = con.cursor()
     try:
-        c_temp.execute("SELECT avg_pe from stk_idt WHERE stk_num=%s",(stk_num,))
+        c_temp.execute("SELECT avt_pe from stk_idt WHERE stk_num=%s",(stk_num,))
     except:
         stk_idt_check = "no such table: stk_idt"
     temp = c_temp.fetchall()
     if len(temp)>0:
-        avg_pe = temp[0][0]
+        avt_pe = temp[0][0]
     else:
-        avg_pe = "N/A"
-    '''
+        avt_pe = 0
     
-    avg_pe = "N/A"
+    print "avt_pe", avt_pe
     
     #排除上年4Q无数据股票
     if R_lYear_4Q != "N/A":
@@ -279,8 +277,8 @@ for stk_lst in c.fetchall():
         forecast_PE = "N/A"
 
     #计算目标价位
-    if avg_pe != "N/A" and forecast_EPS != "N/A":
-        target_price = "%.2f"%(float(avg_pe) * float(forecast_EPS))
+    if avt_pe != 0 and forecast_EPS != "N/A":
+        target_price = "%.2f"%(float(avt_pe) * float(forecast_EPS))
         print "target_price",target_price
     else:
         target_price = "N/A"

@@ -20,14 +20,14 @@ def main():
                 stk_name CHAR(20),
                 current_prc float,
                 cpt_price float(20,2),
-                idt_class CHAR(20),
-                idt CHAR(20),
+                stk_idt CHAR(20),
+                avt_pe float(10,2),
                 forecast_EPS float,
                 lastyear_yoy float,
                 forecast_PE float,
                 qr_target_price float,
                 mid_value float(10,2),
-                target_price_range float(10,2),
+                target_price_range CHAR(20),
                 eps_y16_evg float(5,2),
                 y15_to_y16_growth float(6,4),
                 org_predict_pe float(10,2),
@@ -45,7 +45,7 @@ def main():
         stk_name = stock[stk_num]
         
         #Initialize 
-        current_prc = cpt_price = idt_class = idt = forecast_EPS = lastyear_yoy = forecast_PE = qr_target_price = "N/A"
+        current_prc = cpt_price = stk_idt = avt_pe = forecast_EPS = lastyear_yoy = forecast_PE = qr_target_price = "N/A"
         eps_y16_evg = y15_to_y16_growth = org_predict_pe = org_predict_peg = eps_target_price = mid_value = target_price_range = "N/A"
         
         c.execute("SELECT current_prc from stk_prc where stk_num = %s", (stk_num,))
@@ -65,8 +65,13 @@ def main():
         
         print "cpt_price", cpt_price
         
-        #Idt table has not been created yet
-        idt_class = idt = "N/A"
+        c.execute("SELECT stk_idt, avt_pe from stk_idt where stk_num = %s", (stk_num,))
+        fetch = c.fetchone()
+        if not fetch is None:
+            stk_idt = fetch[0]
+            avt_pe = fetch[1]
+            print "stk_idt", stk_idt
+            print "avt_pe", avt_pe
         
         c.execute("SELECT forecast_EPS,lastyear_yoy,forecast_PE,target_price from cal_co_qr where stk_num = %s", (stk_num,))
         fetch = c.fetchone()
@@ -106,9 +111,9 @@ def main():
             print "target_price_range", target_price_range
             
         c.execute('''REPLACE INTO rst_stk_flt (
-                stk_num,stk_name,current_prc,cpt_price,idt_class,idt,forecast_EPS,lastyear_yoy,forecast_PE,qr_target_price,mid_value,target_price_range,eps_y16_evg,y15_to_y16_growth,org_predict_pe,org_predict_peg,eps_target_price)
+                stk_num,stk_name,current_prc,cpt_price,stk_idt,avt_pe,forecast_EPS,lastyear_yoy,forecast_PE,qr_target_price,mid_value,target_price_range,eps_y16_evg,y15_to_y16_growth,org_predict_pe,org_predict_peg,eps_target_price)
                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''',
-                (stk_num,stk_name,current_prc,cpt_price,idt_class,idt,forecast_EPS,lastyear_yoy,forecast_PE,qr_target_price,mid_value,target_price_range,eps_y16_evg,y15_to_y16_growth,org_predict_pe,org_predict_peg,eps_target_price))
+                (stk_num,stk_name,current_prc,cpt_price,stk_idt,avt_pe,forecast_EPS,lastyear_yoy,forecast_PE,qr_target_price,mid_value,target_price_range,eps_y16_evg,y15_to_y16_growth,org_predict_pe,org_predict_peg,eps_target_price))
         #print stk_num,stk_name,eps_y16_evg,y15_to_y16_growth,org_predict_pe,org_predict_peg,eps_target_price
     con.commit()    
     c.close()
