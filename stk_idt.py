@@ -68,7 +68,8 @@ def cal_idt_pe(con):
             try: price = c.fetchone()[0]
             except: price = 0
             print "price",price
-            c.execute("SELECT EPS from co_qr where stk_num = %s", (stock,))
+            c.execute("SELECT EPS from co_qr where stk_num = %s ORDER BY QUARTER DESC LIMIT 1", (stock,))
+            #Fetch the newest eps of specific stock
             try: eps = c.fetchone()[0]
             except: eps = 0
             print "eps",eps
